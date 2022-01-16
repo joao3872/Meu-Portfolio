@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script/script.js"></script>
+
+    <link rel="stylesheet" href="styles/global.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <span class="logo">
+                Meu Portfólio
+            </span>
+        </a>
+
+        <span 
+          class="fas fa-bars icon-menu" 
+          onclick="abrirMenu()"
+        >
+        </span>
+
+        <span 
+          class="close-menu"
+          onclick="fecharMenu()"
+        >
+            &times;
+        </span>
+
+        <nav class="menu">
+            <a href="#" onclick="abrirContatos()">
+              <i class="far fa-address-book"></i>
+                Contatos
+            </a>
+
+            <a href="projetos.html" target="_blank">
+              <i class="fas fa-chart-line"></i>
+                Projetos
+            </a>
+
+            <a href="recomendacoes.html" target="_blank">
+              <i class="far fa-check-circle"></i>
+                Recomendações
+            </a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="container">
+            <div class="informacoes">
+
+                <img src="imagens/minha_foto.png" class="foto" alt="img" />
+
+                <h3>João Matheus Da Silva Ferreira</h3>
+
+                <p>Tenho 22 anos e gosto muito de Tecnologia ! Em 2019, ingressei no curso de Ciência da Computação na UNIP (Universidade Paulista).</p>
+                <p>Foi no primeiro ano de curso, que eu aprendi o básico de: HTML5 e Python. Até que no início do 3º semestre, precisei trancar a matrícula devido a pandemia da covid-19.</p>
+                <p>Porém, na quarentena aproveitei, para fazer alguns cursos pela Internet e assim ganhei mais conhecimento !</p>
+
+            </div>
+        </section>
+
+
+        <section class="redes">
+        
+            <h4>O meu GitHub e LinkedIn:</h4>
+
+            <div class="buttons">
+                <a 
+                  href="https://github.com/joao3872" 
+                  class="btn_github" 
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+
+                <a 
+                  href="https://www.linkedin.com/in/joao-matheus-a15366118"
+                  class="btn_linkedin"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+            </div>
+
+        </section>
+
+        <div class="curriculo">
+        
+            <h4>Fique a vontade para conferir meu CV:</h4>
+
+            <div class="buttons-cv">
+                <a 
+                  href="https://www.canva.com/design/DAEw_UXZ4JE/9eeS02VxEHw4mqmD_ThQJA/view?utm_content=DAEw_UXZ4JE&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" 
+                  class="cv" 
+                  target="_blank"
+                >
+                  <i class="fas fa-eye"></i>
+                    Ver CV
+                </a>
+
+                <p>OU</p>
+
+                <a 
+                  href="imagens/joao_matheus.pdf" 
+                  download="joao_matheus.pdf" 
+                  class="cv"
+                  target="_blank"
+                >
+                  <i class="fas fa-download"></i>
+                    Baixar CV
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="fundo-modal">
+        
+        <div class="modal-contatos">
+            <h4>Meus Contatos</h4>
+
+            <p>Mande um e-mail ou uma mensagem no WhatsApp !</p>
+
+            <div class="buttons_contatos">
+
+                <a href="mailto:joaomatheus11@gmail.com" class="gmail">
+                  <i class="fab fa-google"></i>
+                    Gmail
+                </a>
+
+                <a href="https://wa.me/5511982687500" class="whatsapp" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+
+            </div>
+
+            <p>Obrigado pela Visita !</p>
+
+            <span class="fas fa-arrow-left" onclick="fecharContatos()"></span>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; Página criada por João Matheus !</p>
+    </footer>
+    
+</body>
+</html>
