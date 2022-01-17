@@ -15,7 +15,7 @@ main .container {
 }
 
 main .container .row {
-margin: 8px -8px;
+    margin: 8px -8px;
 }
 
 main .container .row, .row > .column {
@@ -23,8 +23,8 @@ main .container .row, .row > .column {
 }
 
 main .container .column {
-float: left;
-width: 25%;
+    float: left;
+    width: 25%;
 }
 
 main .container .row:after {
@@ -35,21 +35,21 @@ main .container .row:after {
 
 @media screen and (max-width: 900px) {
     main .container .column {
-                    width: 50%;
+        width: 50%;
     }
 }
 
 
 @media screen and (max-width: 600px) {
     main .container .column {
-                    width: 100%;
+        width: 100%;
     }
 }
 
 
 main .container .item {
-background: var(--blue-card);
-width: 85%;
+    background: var(--blue-card);
+    width: 85%;
     margin: auto;
     height: 100%;
     border-radius: 0 20px;
