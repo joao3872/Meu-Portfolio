@@ -2,7 +2,7 @@
 
 * Veja como ficou:
 
-<img src="portfolio.gif" />
+<img src="imagens/portfolio.gif" height="500px" width="260px" />
 
 ### Experimente você mesmo:
 
