@@ -131,7 +131,8 @@ main .container .fundo-links .container-links .fas {
 
 @media screen and (min-width: 901px) {
     main .container .item {
-	width: 60%;
+	width: 50%;
+        padding: 20px;
     }
 
     main .container .fundo-links .container-links {
