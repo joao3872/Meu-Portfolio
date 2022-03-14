@@ -14,13 +14,6 @@ function fecharMenu() {
     var iconMenu = document.querySelector('span.icon-menu')
     var iconClose = document.querySelector('span.close-menu')
 
-    var pagina1 = document.querySelector('a#pagina1')
-    var pagina2 = document.querySelector('a#pagina2')
-
-    if (pagina1.click() || pagina2.click()) {
-        fecharMenu()
-    }
-
     menu.style.display = 'none'
     iconMenu.style.display = 'block'
     iconClose.style.display = 'none'
