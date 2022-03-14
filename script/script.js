@@ -22,8 +22,14 @@ function fecharMenu() {
 
 function abrirContatos() {
     var modal = document.querySelector('section.fundo-modal')
+    var menu = document.querySelector('nav.menu')
+    var abrirMenu = document.querySelector('span.icon-menu')
+    var fecharMenu = document.querySelector('span.close-menu')
 
     modal.style.display = 'block'
+    menu.style.display = 'none'
+    fecharMenu.style.display = 'none'
+    abrirMenu.style.display = 'block'
 }
 
 function fecharContatos() {
