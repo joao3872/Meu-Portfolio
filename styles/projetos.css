@@ -15,7 +15,7 @@ main .container {
 }
 
 main .container .row {
-    margin: 8px -8px;
+    margin: 8px 0;
 }
 
 main .container .row, .row > .column {
