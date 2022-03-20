@@ -194,3 +194,14 @@ footer {
         margin-top: 22vh;
     }
 }
+
+
+@media (prefers-color-scheme: dark) {
+    header:after {
+        background: var(--footer);
+    }
+
+    header .logo, .icon-menu {
+        color: var(--white);
+    }
+}
