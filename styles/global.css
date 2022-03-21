@@ -209,4 +209,13 @@ footer {
         border-color: var(--white);
         color: var(--white);
     }
+
+    header .menu {
+        background: rgba(0, 0, 0, .6);
+        border-color: var(--orange);
+    }
+
+    header a {
+        color: var(--white);
+    }
 }
