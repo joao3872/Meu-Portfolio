@@ -211,11 +211,11 @@ footer {
     }
 
     header .menu {
-        background: rgba(0, 0, 0, .6);
+        background: var(--grey);
         border-color: var(--orange);
     }
 
-    header a {
+    header .menu a {
         color: var(--white);
     }
 }
