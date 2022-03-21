@@ -201,7 +201,12 @@ footer {
         background: var(--footer);
     }
 
-    header .logo, .icon-menu {
+    header .logo {
+        color: var(--white);
+    }
+
+    header .icon-menu {
+        border-color: var(--white);
         color: var(--white);
     }
 }
