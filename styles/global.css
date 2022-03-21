@@ -197,7 +197,7 @@ footer {
 
 
 @media (prefers-color-scheme: dark) {
-    header:after {
+    header {
         background: var(--footer);
     }
 
