@@ -225,5 +225,6 @@ footer {
 
     .fundo-modal .modal-contatos {
         background: var(--footer);
+        color: rgba(255, 255, 255, .8);
     }
 }
