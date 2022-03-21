@@ -218,4 +218,8 @@ footer {
     header .menu a {
         color: var(--white);
     }
+
+    header .menu a:hover {
+        background: var(--green-whatsapp);
+    }
 }
