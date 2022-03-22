@@ -20,6 +20,10 @@ html {
     --blue: blue;
     --transparent: transparent;
     --purple: purple;
+    --orange-red: orangered;
+    --purple-claro: #a626a6;
+    --card-escuro: #046f9a;
+    --aqua-escuro: #02a086;
 
     --hover-menu: #E0F2F1;
     --blue-linkedin:#0077B5;
@@ -30,6 +34,10 @@ html {
     --aqua-marine: #02C8A7;
     --gradiente: #fffc40;
     --gradientes: #40fff5;
+    --blue-claro: #4040ff;
+    --orange-escuro: #c68d22;
+    --coral-escuro: #cc202c;
+    --sky-blue: #00bfff;
 }
 
 main {
