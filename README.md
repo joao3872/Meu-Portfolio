@@ -18,7 +18,7 @@
 
 ### Experimente você mesmo:
 
-* #### [Acessar Portfólio](https://joao3872.github.io/Meu-Portfolio/)
+* #### <a href="https://joao3872.github.io/Meu-Portfolio/" target="_blank">Acessar Portfólio</a>
 
 ### Crédito das Imagens:
 
