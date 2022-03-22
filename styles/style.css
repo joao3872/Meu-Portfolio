@@ -45,7 +45,7 @@ main .redes {
     width: 100%;
     padding: 25px 0 15px 0;
     text-align: center;
-    color: var(--white);
+    color: var(--black);
     background: rgba(138, 138, 138, .6);
     border-bottom: 1px dashed var(--red);
 }
@@ -128,5 +128,11 @@ main .curriculo .buttons-cv .cv:hover {
 @media (prefers-color-scheme: dark) {
     main .container {
         background-image: url("../imagens/img-dark.png");
+    }
+
+    main .redes {
+        color: var(--white);
+        background: var(--grey);
+        border-bottom: 1px dashed var(--orange-red);
     }
 }
