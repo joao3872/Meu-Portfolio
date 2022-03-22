@@ -14,7 +14,7 @@
 
 ### Experimente você mesmo:
 
-[Acessar Portfólio](https://joao3872.github.io/Meu-Portfolio/)
+* #### [Acessar Portfólio](https://joao3872.github.io/Meu-Portfolio/)
 
 ### Crédito das Imagens:
 
