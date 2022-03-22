@@ -25,7 +25,7 @@
 * <a href="https://www.pexels.com/pt-br/foto/oculos-de-sol-pretos-em-superficie-de-madeira-marrom-1028442/" target="_blank">Acessar Imagem</a>
 
 
-<img src="imagens/fundo_imagem.png" height="200px" width="300px" />
+<img src="imagens/fundo_imagem.png" height="180px" width="300px" />
 
 * #### Autor da imagem: fauxels
 
@@ -37,3 +37,10 @@
 * #### Autor da imagem: Junior Teixeira
 
 * <a href="https://www.pexels.com/pt-br/foto/computador-portatil-semiaberto-ligado-na-mesa-2047905/" target="_blank">Acessar Imagem</a>
+
+
+<img src="imagens/fundo-dark.png" height="180px" width="300px" />
+
+* #### Autora da imagem: Marta Branco
+
+* <a href="https://www.pexels.com/pt-br/foto/foto-de-close-do-teclado-preto-e-azul-1194713/" target="_blank">Acessar Imagem</a>
