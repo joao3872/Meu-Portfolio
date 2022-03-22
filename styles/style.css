@@ -161,3 +161,10 @@ main .curriculo .buttons-cv .cv:hover {
         background: var(--purple-claro);
     }
 }
+
+
+@media (prefers-color-scheme: dark) and (min-width: 601px) {
+    main .container {
+        background-image: url("../imagens/fundo-dark.png");
+    }
+}
