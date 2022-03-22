@@ -23,3 +23,10 @@
 * #### Autor da imagem: Vlad Bagacian
 
 * <a href="https://www.pexels.com/pt-br/foto/oculos-de-sol-pretos-em-superficie-de-madeira-marrom-1028442/" target="_blank">Acessar Imagem</a>
+
+
+<img src="imagens/fundo_imagem.png" height="200px" width="300px" />
+
+* #### Autor da imagem: fauxels
+
+* <a href="https://www.pexels.com/photo/photo-of-laptop-near-coffee-3184458/" target="_blank">Acessar Imagem</a>
