@@ -15,3 +15,11 @@
 ### Experimente você mesmo:
 
 [Acessar Portfólio](https://joao3872.github.io/Meu-Portfolio/)
+
+### Crédito das Imagens:
+
+<img src="imagens/imagem_fundo.png" height="300px" width="200px" />
+
+* #### Autor da imagem: Vlad Bagacian
+
+* <a href="https://www.pexels.com/pt-br/foto/oculos-de-sol-pretos-em-superficie-de-madeira-marrom-1028442/" target="_blank">Acessar Imagem</a>
