@@ -135,4 +135,9 @@ main .curriculo .buttons-cv .cv:hover {
         background: var(--grey);
         border-bottom: 1px dashed var(--orange-red);
     }
+
+    main .curriculo {
+        background: rgba(138, 138, 138, .8);
+        color: var(--white);
+    }
 }
