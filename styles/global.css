@@ -228,7 +228,7 @@ footer {
     }
 
     header .menu a:hover {
-        background: var(--green-whatsapp);
+        background: var(--hover-menu);
     }
 
     .fundo-modal .modal-contatos {
