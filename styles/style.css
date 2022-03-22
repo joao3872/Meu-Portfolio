@@ -136,8 +136,28 @@ main .curriculo .buttons-cv .cv:hover {
         border-bottom: 1px dashed var(--orange-red);
     }
 
+    main .redes .buttons .btn_linkedin {
+        color: var(--blue-claro);
+        border-color: var(--blue-claro);
+    }
+
+    main .redes .buttons .btn_linkedin:hover {
+        background: var(--blue-claro);
+        color: var(--white);
+    }
+
     main .curriculo {
         background: rgba(138, 138, 138, .8);
         color: var(--white);
+    }
+
+    main .curriculo .buttons-cv .cv {
+        color: var(--purple-claro);
+        border-color: var(--purple-claro);
+    }
+
+    main .curriculo .buttons-cv .cv:hover {
+        color: var(--white);
+        background: var(--purple-claro);
     }
 }
