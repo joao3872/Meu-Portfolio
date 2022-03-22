@@ -30,3 +30,10 @@
 * #### Autor da imagem: fauxels
 
 * <a href="https://www.pexels.com/photo/photo-of-laptop-near-coffee-3184458/" target="_blank">Acessar Imagem</a>
+
+
+<img src="imagens/img-dark.png" height="300px" width="200px" />
+
+* #### Autor da imagem: Junior Teixeira
+
+* <a href="https://www.pexels.com/pt-br/foto/computador-portatil-semiaberto-ligado-na-mesa-2047905/" target="_blank">Acessar Imagem</a>
