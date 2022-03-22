@@ -123,3 +123,10 @@ main .curriculo .buttons-cv .cv:hover {
         width: 400px;
     }
 }
+
+
+@media (prefers-color-scheme: dark) {
+    main .container {
+        background-image: url("../imagens/img-dark.png");
+    }
+}
