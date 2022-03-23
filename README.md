@@ -8,6 +8,10 @@
 
 * E na terceira página, possui links de Blogs, Cursos, e o link do YouTube de alguns profissionais da área.
 
+* Agora, as 3 páginas e as 2 modais, possui o modo escuro (Dark Mode). 🌑
+
+* E o modo claro (Light Mode), é o padrão do portfólio. ☀️
+
 ### Versão Mobile:
 
 <img src="imagens/portfolio.gif" height="500px" width="260px" />
