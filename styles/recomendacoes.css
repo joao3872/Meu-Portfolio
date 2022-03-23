@@ -157,4 +157,33 @@ main .container .fundo-links .container-links .fas {
     main .container .item {
         background: var(--aqua-escuro);
     }
+
+    main .container .item .button_link {
+        border-color: var(--sky-blue);
+        color: var(--sky-blue);
+    }
+
+    main .container .item .button_link:hover {
+        background: var(--sky-blue);
+        color: var(--white);
+    }
+
+    main .container .item .button_mais, .button_menos, .mais, .menos {
+        border-color: var(--purple-claro);
+        color: var(--purple-claro);
+    }
+
+    main .container .item .button_mais:hover, .button_menos:hover, .mais:hover, .menos:hover {
+        background: var(--purple-claro);
+        color: var(--white);
+    }
+
+    main .container .fundo-links .container-links {
+        background: var(--footer);
+        color: var(--white);
+    }
+
+    main .container .fundo-links .container-links .fas {
+        color: var(--purple-claro);
+    }
 }
