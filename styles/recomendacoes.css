@@ -146,3 +146,15 @@ main .container .fundo-links .container-links .fas {
 	margin-top: 16vh;
     }
 }
+
+
+/* Modo Escuro */
+@media (prefers-color-scheme: dark) {
+    main .container {
+        background: var(--coral-escuro);
+    }
+
+    main .container .item {
+        background: var(--aqua-escuro);
+    }
+}
