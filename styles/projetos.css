@@ -73,3 +73,13 @@ main .container .item .area_texto p {
     margin-top: 5px;
     text-align: center;
 }
+
+@media (prefers-color-scheme: dark) {
+    main {
+        background: var(--orange-escuro);
+    }
+
+    main .container .item {
+        background: var(--card-escuro);
+    }
+}
