@@ -20,6 +20,14 @@
 
 <img src="imagens/portfolio-dark.gif" height="500px" width="260px" />
 
+### Versão Desktop:
+
+<img src="imagens/desktop.gif" />
+
+### Modo Escuro:
+
+<img src="imagens/desktop-dark.gif" />
+
 ### Experimente você mesmo:
 
 * #### <a href="https://joao3872.github.io/Meu-Portfolio/" target="_blank">Acessar Portfólio</a>
