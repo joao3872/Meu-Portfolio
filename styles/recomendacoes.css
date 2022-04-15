@@ -118,6 +118,28 @@ main .container .fundo-links .container-links .fas {
     margin: 15px 0 0 15px;
 }
 
+main .topo {
+    position: fixed;
+    background: orange;
+    display: none;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    right: 15px;
+    bottom: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
+}
+
+main .topo .icon-top {
+    width: 20px;
+    color: purple;
+    margin: auto;
+}
+
+main .topo .icon-top:hover {
+    margin-top: 12px;
+}
+
 
 @media screen and (min-width: 601px) {
     main .container .item {
