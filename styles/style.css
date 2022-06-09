@@ -107,6 +107,9 @@ main .curriculo .buttons-cv p {
 main .curriculo .buttons-cv .cv {
     background: var(--transparent);
     border: 1px solid var(--purple);
+}
+
+main .curriculo .buttons-cv .cv .link {
     cursor: default;
 }
 
