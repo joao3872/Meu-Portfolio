@@ -189,8 +189,9 @@ main .topo .icon-top:hover {
     }
 
     main .container .item .button_link:hover {
-        background: var(--sky-blue);
         color: var(--white);
+        box-shadow: 0 .5em .5em -.4em var(--sky-blue);
+        transform: translateY(-.25em);
     }
 
     main .container .item .button_mais, .button_menos, .mais, .menos {
@@ -199,8 +200,9 @@ main .topo .icon-top:hover {
     }
 
     main .container .item .button_mais:hover, .button_menos:hover, .mais:hover, .menos:hover {
-        background: var(--purple-claro);
         color: var(--white);
+        box-shadow: 0 .5em .5em -.4em var(--purple-claro);
+        transform: translateY(-.25em);
     }
 
     main .container .fundo-links .container-links {
