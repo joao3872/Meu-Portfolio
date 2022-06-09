@@ -106,13 +106,13 @@ main .curriculo .buttons-cv p {
 
 main .curriculo .buttons-cv .cv {
     background: var(--transparent);
-    padding: 0;
+    padding: 10px;
     border: 1px solid var(--purple);
 }
 
 main .curriculo .buttons-cv .cv, .link {
     color: var(--purple);
-    padding: 10px;
+    padding: 0;
 }
 
 main .curriculo .buttons-cv .cv:hover {
