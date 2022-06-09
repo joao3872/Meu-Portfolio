@@ -106,7 +106,7 @@ main .curriculo .buttons-cv p {
 
 main .curriculo .buttons-cv .cv {
     background: var(--transparent);
-    /*padding: 0;*/
+    padding: 0;
     border: 1px solid var(--purple);
 }
 
