@@ -110,7 +110,7 @@ main .curriculo .buttons-cv .cv {
     border: 1px solid var(--purple);
 }
 
-main .curriculo .buttons-cv .cv, a {
+main .curriculo .buttons-cv .cv, .link {
     color: var(--purple);
     padding: 10px;
 }
