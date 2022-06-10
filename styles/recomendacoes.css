@@ -53,6 +53,10 @@ main .container .item .button_link:hover {
     transform: translateY(-.25em);
 }
 
+main .container .item .button_link .link {
+    color: var(--blue);
+}
+
 main .container .item .button_mais, .button_menos, .mais, .menos {
     display: flex;
     margin: auto;
