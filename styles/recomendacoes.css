@@ -55,6 +55,7 @@ main .container .item .button_link:hover {
 
 main .container .item .button_link .link {
     color: var(--blue);
+    cursor: default;
 }
 
 main .container .item .button_mais, .button_menos, .mais, .menos {
