@@ -198,6 +198,10 @@ main .topo .icon-top:hover {
         transform: translateY(-.25em);
     }
 
+    main .container .item .button_link .link {
+        color: var(--sky-blue);
+    }
+
     main .container .item .button_mais, .button_menos, .mais, .menos {
         border-color: var(--purple-claro);
         color: var(--purple-claro);
