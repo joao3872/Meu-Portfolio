@@ -108,8 +108,8 @@ main .container .fundo-links .container-links .buttons_links {
 }
 
 main .container .fundo-links .container-links .buttons_links .links {
-    border: .0625rem var(--orange);
-    color: var(--orange);
+    border: .0625rem solid var(--orange);
+    color: var(--oranpge);
 }
 
 main .container .fundo-links .container-links .buttons_links .links:hover {
