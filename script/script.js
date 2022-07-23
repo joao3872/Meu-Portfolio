@@ -33,3 +33,17 @@ function fecharContatos() {
 
     modal.style.display = 'none'
 }
+
+
+function modalInformacoes() {
+    var informacoes = document.querySelector('.modal_informacoes')
+
+    informacoes.style.display = 'block'
+}
+
+
+function fecharInformacoes() {
+    var informacoes = document.querySelector('.modal_informacoes')
+
+    informacoes.style.display = 'none'
+}
