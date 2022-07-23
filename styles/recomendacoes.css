@@ -3,45 +3,45 @@ main .container {
     display: block;
     height: 100%;
     background: var(--bright-coral);
-    padding: 80px 0 10px 0;
+    padding: 5rem 0 .625rem 0;
 }
 
 main .container h3 {
-    margin: 5px 0 30px 28px;
+    margin: .3125rem 0 1.875rem 1.75rem;
 }
 
 main .container .item {
     background: var(--aqua-marine);
     width: 85%;
     height: 100%;
-    padding: 15px;
+    padding: .9375rem;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
-    border-radius: 0 20px 20px 20px;
-    margin-bottom: 50px;
+    box-shadow: .3125rem .3125rem .625rem rgba(0, 0, 0, .6);
+    border-radius: 0 1.25rem 1.25rem 1.25rem;
+    margin-bottom: 3.125rem;
     color: rgba(255, 255, 255, .8);
 }
 
 main .container .item .lista-link {
-    padding: 0 10px 10px 10px;
+    padding: 0 .625rem. 625rem .625rem;
     height: 100%;
     width: 100%;
 }
 
 main .container .item .lista-link li {
-    margin: 0 0 15px 15px;
+    margin: 0 0 .9375rem .9375rem;
 }
 
 main .container .item .lista-link p {
     text-align: center;
-    margin: 25px 0 20px 0;
+    margin: 1.5625rem 0 1.25rem 0;
     line-height: 1.6;
 }
 
 main .container .item .button_link, .button_mais, .button_menos, .links, .mais, .menos {
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid var(--blue);
+    padding: .625rem;
+    border-radius: .5rem;
+    border: .0625rem solid var(--blue);
     background: var(--transparent);
     color: var(--blue);
     font: bold 11pt Arial;
@@ -61,9 +61,9 @@ main .container .item .button_link .link {
 main .container .item .button_mais, .button_menos, .mais, .menos {
     display: flex;
     margin: auto;
-    border: 1px solid var(--purple);
+    border: .0625rem solid var(--purple);
     color: var(--purple);
-    margin-top: 15px;
+    margin-top: .9375rem;
 }
 
 main .container .item .button_mais:hover, .button_menos:hover, .mais:hover, .menos:hover {
@@ -92,9 +92,9 @@ main .container .fundo-links {
 main .container .fundo-links .container-links {
     background: rgba(255, 255, 255, .9);
     width: 85%;
-    border-radius: 8px;
+    border-radius: .5rem;
     margin: auto;
-    padding: 20px 10px 15px 10px;
+    padding: 1.25rem .625rem .9375rem .625rem;
     margin-top: 30vh;
     color: var(--grey);
     text-align: center;
@@ -102,13 +102,13 @@ main .container .fundo-links .container-links {
 
 main .container .fundo-links .container-links .buttons_links {
     width: 100%;
-    margin: 40px 0 30px 0;
+    margin: 2.5rem 0 1.875rem 0;
     display: flex;
     justify-content: space-evenly;
 }
 
 main .container .fundo-links .container-links .buttons_links .links {
-    border: 1px solid var(--orange);
+    border: .0625rem var(--orange);
     color: var(--orange);
 }
 
@@ -120,32 +120,32 @@ main .container .fundo-links .container-links .buttons_links .links:hover {
 
 main .container .fundo-links .container-links .fas {
     color: var(--purple);
-    font-size: 22px;
+    font-size: 1.375rem;
     display: flex;
     justify-content: flex-start;
-    margin: 15px 0 0 15px;
+    margin: .9375rem 0 0 .9375rem;
 }
 
 main .topo {
     position: fixed;
     background: orange;
     display: none;
-    border-radius: 50px;
-    width: 60px;
-    height: 60px;
-    right: 15px;
-    bottom: 30px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
+    border-radius: 3.125rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    right: .9375rem;
+    bottom: 1.875rem;
+    box-shadow: .3125rem .3125rem .625rem rgba(0, 0, 0, .6);
 }
 
 main .topo .icon-top {
-    width: 20px;
+    width: 1.25rem;
     color: purple;
     margin: auto;
 }
 
 main .topo .icon-top:hover {
-    margin-top: 12px;
+    margin-top: .75rem;
 }
 
 
@@ -162,7 +162,7 @@ main .topo .icon-top:hover {
 @media screen and (min-width: 901px) {
     main .container .item {
 	width: 50%;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     main .container .fundo-links .container-links {
