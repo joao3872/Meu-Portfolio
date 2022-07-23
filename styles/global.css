@@ -172,7 +172,7 @@ header .menu a i, .buttons_contatos i {
     font-size: 1.375rem;
     display: flex;
     justify-content: flex-start;
-    cursor: pointer;
+    cursor: default;
 }
 
 footer {
@@ -200,6 +200,10 @@ footer {
     .fundo-modal .modal-contatos {
         width: 40%;
         margin-top: 22vh;
+    }
+
+    .fundo-modal .modal-contatos .fas {
+        cursor: pointer;
     }
 }
 
