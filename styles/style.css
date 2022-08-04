@@ -216,19 +216,19 @@ main .curriculo .buttons-cv .cv:hover {
 }
 
 .modal_informacoes .scroll .linguagens .html5 {
-    color: #E34F26;
+    color: var(--orange-html);
 }
 
 .modal_informacoes .scroll .linguagens .css3 {
-    color: #1572B6;
+    color: var(--blue-css);
 }
 
 .modal_informacoes .scroll .linguagens .js {
-    color: #F7DF1E;
+    color: var(--yellow-js);
 }
 
 .modal_informacoes .scroll .linguagens .python {
-    color: #3776AB;
+    color: var(--blue-python);
 }
 
 .modal_informacoes .scroll .ferramentas .vscode {
