@@ -192,7 +192,7 @@ main .curriculo .buttons-cv .cv:hover {
 }
 
 .modal_informacoes .scroll::-webkit-scrollbar-thumb {
-    background: brown;
+    background: var(--brown);
     border-radius: 10px;
 }
 
@@ -289,6 +289,25 @@ main .curriculo .buttons-cv .cv:hover {
     main .curriculo .buttons-cv .cv:hover {
         color: var(--white);
         box-shadow: 0 .5em .5em -.4em var(--purple-claro);
+    }
+
+    .btn_informacoes {
+        background: var(--orange-escuro);
+        border-color: var(--white);
+    }
+
+    .modal_informacoes {
+        background: var(--footer);
+        border-color: var(--white);
+        box-shadow: 5px 5px 8px rgba(255, 255, 255, .6);
+    }
+
+    .modal_informacoes .scroll h3, p {
+        color: rgba(255, 255, 255, .8);
+    }
+
+    .modal_informacoes .scroll::-webkit-scrollbar-thumb {
+        background: var(--brown-claro);
     }
 }
 
