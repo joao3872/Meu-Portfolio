@@ -157,7 +157,7 @@ main .curriculo .buttons-cv .cv:hover {
     width: 85%;
     border: .125rem solid var(--black);
     padding: .625rem 1.125rem 2.1875rem 1.125rem;
-    border-radius: 0 20px;
+    border-radius: 0 1.25rem;
     box-shadow: .3125rem .3125rem .5rem rgba(0, 0, 0, .6);
     position: fixed;
     right: .9375rem;
