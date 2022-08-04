@@ -126,17 +126,17 @@ main .curriculo .buttons-cv .cv:hover {
 .btn_informacoes {
     background: var(--orange);
     position: fixed;
-    right: 15px;
-    bottom: 25px;
-    width: 60px;
-    height: 60px;
+    right: .9375rem;
+    bottom: 1.5625rem;
+    width: 3.75rem;
+    height: 3.75rem;
     animation: float 3s ease-in-out infinite;
-    border-radius: 60px;
-    border: 2px solid var(--black);
+    border-radius: 3.75rem;
+    border: .125rem solid var(--black);
 }
 
 .btn_informacoes .img_info {
-    height: 30px;
+    height: 1.875rem;
 }
 
 @keyframes float {
@@ -144,7 +144,7 @@ main .curriculo .buttons-cv .cv:hover {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-25px);
+        transform: translateY(-1.5625rem);
     }
     100% {
         transform: translateY(0);
@@ -155,13 +155,13 @@ main .curriculo .buttons-cv .cv:hover {
     display: none;
     background: var(--white);
     width: 85%;
-    border: 2px solid var(--black);
-    padding: 10px 18px 35px 18px;
+    border: .125rem solid var(--black);
+    padding: .625rem 1.125rem 2.1875rem 1.125rem;
     border-radius: 0 20px;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, .6);
+    box-shadow: .3125rem .3125rem .5rem rgba(0, 0, 0, .6);
     position: fixed;
-    right: 15px;
-    bottom: 25px;
+    right: .9375rem;
+    bottom: 1.5625rem;
 }
 
 .modal_informacoes .fechar_modal {
@@ -170,49 +170,49 @@ main .curriculo .buttons-cv .cv:hover {
 }
 
 .modal_informacoes .fechar_modal img {
-    height: 30px;
+    height: 1.875rem;
 }
 
 .modal_informacoes .scroll {
-    margin: 15px 0;
+    margin: .9375rem 0;
     overflow: scroll;
-    height: 230px;
+    height: 14.375rem;
     overflow-x: hidden;
-    padding: 0 10px;
+    padding: 0 .625rem;
     text-align: center;
 }
 
 .modal_informacoes .scroll::-webkit-scrollbar {
-    width: 8px;
+    width: .5rem;
 }
 
 .modal_informacoes .scroll::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px var(--black);
-    border-radius: 10px;
+    box-shadow: inset 0 0 .3125rem var(--black);
+    border-radius: .625rem;
 }
 
 .modal_informacoes .scroll::-webkit-scrollbar-thumb {
     background: var(--brown);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 
 .modal_informacoes .scroll .info .paragrafo2 {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .modal_informacoes .scroll .info, .linguagens, .ferramentas {
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 
 .modal_informacoes .scroll .linguagens, .ferramentas {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .modal_informacoes .scroll .linguagens .html5, .css3, .js, .python, .git {
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .modal_informacoes .scroll .linguagens .html5 {
@@ -232,7 +232,7 @@ main .curriculo .buttons-cv .cv:hover {
 }
 
 .modal_informacoes .scroll .ferramentas .vscode {
-    height: 28px;
+    height: 1.75rem;
 }
 
 .modal_informacoes .scroll .ferramentas .git {
@@ -250,7 +250,7 @@ main .curriculo .buttons-cv .cv:hover {
     }
     
     .modal_informacoes {
-        width: 350px;
+        width: 21.875rem;
     }
 }
 
@@ -299,7 +299,7 @@ main .curriculo .buttons-cv .cv:hover {
     .modal_informacoes {
         background: var(--footer);
         border-color: var(--white);
-        box-shadow: 5px 5px 8px rgba(255, 255, 255, .6);
+        box-shadow: .3125rem .3125rem .5rem rgba(255, 255, 255, .6);
     }
 
     .modal_informacoes .scroll h3, p {
