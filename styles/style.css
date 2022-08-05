@@ -249,7 +249,11 @@ main .curriculo .buttons-cv .cv:hover {
         width: 25rem;
     }
 
-    main .curriculo .buttons-cv .cv, .link {
+    main .curriculo .buttons-cv .cv {
+        cursor: pointer;
+    }
+
+    main .curriculo .buttons-cv .cv .link, .btn_informacoes, .img_info {
         cursor: pointer;
     }
     
