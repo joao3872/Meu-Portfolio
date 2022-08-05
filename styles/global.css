@@ -82,12 +82,11 @@ header .icon-menu, .close-menu {
 }
 
 header .close-menu {
-    /*padding: 0 .5rem 0 .5rem;*/
+    padding: 0 .5rem 0 .5rem;
     color: var(--red);
-    /*font-size: 1.625rem;*/
+    font-size: 1.625rem;
     border: .0625rem solid var(--red);
     display: none;
-    /*font-family: none;*/
 }
 
 header .menu {
