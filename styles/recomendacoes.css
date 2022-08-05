@@ -167,7 +167,11 @@ main .topo .icon-top:hover {
 
     main .container .fundo-links .container-links {
 	width: 40%;
-								margin-top: 8vh;
+        margin-top: 8vh;
+    }
+
+    main .container .item .button_link, .button_mais, .button_menos, .links, .mais, .menos {
+        cursor: pointer;
     }
 }
 
