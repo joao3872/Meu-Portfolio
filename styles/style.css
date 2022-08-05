@@ -249,7 +249,7 @@ main .curriculo .buttons-cv .cv:hover {
         width: 25rem;
     }
 
-    main .curriculo .buttons-cv .cv .link {
+    main .curriculo .buttons-cv .cv, .link {
         cursor: pointer;
     }
     
