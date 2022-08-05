@@ -248,6 +248,10 @@ main .curriculo .buttons-cv .cv:hover {
     main .container .informacoes {
         width: 25rem;
     }
+
+    main .curriculo .buttons-cv .cv .link {
+        cursor: pointer;
+    }
     
     .modal_informacoes {
         width: 21.875rem;
