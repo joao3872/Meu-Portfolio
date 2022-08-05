@@ -83,7 +83,7 @@ header .icon-menu, .close-menu {
 
 header .close-menu {
     color: var(--red);
-    padding: .5rem .625rem;
+    padding: .5rem .5625rem;
     border: .0625rem solid var(--red);
     display: none;
 }
