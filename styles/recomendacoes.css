@@ -170,7 +170,11 @@ main .topo .icon-top:hover {
         margin-top: 8vh;
     }
 
-    main .container .item .button_link, .link, .button_mais, .button_menos, .links, .mais, .menos {
+    main .container .item .button_link, .button_mais, .button_menos, .links, .mais, .menos {
+        cursor: pointer;
+    }
+
+    main .container .item .button_link .link {
         cursor: pointer;
     }
 }
