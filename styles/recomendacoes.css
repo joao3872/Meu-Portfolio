@@ -50,7 +50,7 @@ main .container .item .button_link, .button_mais, .button_menos, .links, .mais, 
 main .container .item .button_link:hover {
     box-shadow: 0 .5em .5em -.4em var(--blue);
     color: var(--white);
-    transform: translateY(-.25em);
+    transform: translateY(-4px);
 }
 
 main .container .item .button_link .link {
