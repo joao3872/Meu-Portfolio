@@ -1,3 +1,7 @@
+header {
+    position: relative;
+}
+
 main .container {
     width: 100%;
     display: block;
