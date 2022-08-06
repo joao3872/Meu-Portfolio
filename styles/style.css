@@ -260,6 +260,10 @@ main .curriculo .buttons-cv .cv:hover {
     .modal_informacoes {
         width: 21.875rem;
     }
+
+    .modal_informacoes .scroll .linguagens .html5, .css3, .js, .git {
+        margin-right: 1.875rem;
+    }
 }
 
 
