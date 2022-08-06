@@ -265,6 +265,7 @@ main .curriculo .buttons-cv .cv:hover {
         display: flex;
         justify-content: center;
         gap: 2.5rem;
+        width: 90%;
     }
 }
 
