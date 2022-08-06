@@ -14,11 +14,11 @@
 
 ### Versão Mobile:
 
-<img src="imagens/portfolio.gif" height="500px" width="260px" />
+<img src="imagens/portfolio-m.gif" height="500px" width="260px" />
 
 ### Modo Escuro:
 
-<img src="imagens/portfolio-dark.gif" height="500px" width="260px" />
+<img src="imagens/portfolio_dark.gif" height="500px" width="260px" />
 
 ### Versão Desktop:
 
