@@ -260,13 +260,6 @@ main .curriculo .buttons-cv .cv:hover {
     .modal_informacoes {
         width: 21.875rem;
     }
-
-    .modal_informacoes .scroll .linguagens, .ferramentas {
-        display: flex;
-        justify-content: center;
-        gap: 2.5rem;
-        width: 90%;
-    }
 }
 
 
