@@ -22,11 +22,11 @@
 
 ### Versão Desktop:
 
-<img src="imagens/desktop.gif" />
+<img src="imagens/desktop_pf.gif" />
 
 ### Modo Escuro:
 
-<img src="imagens/desktop-dark.gif" />
+<img src="imagens/desktop_dark.gif" />
 
 ### Experimente você mesmo:
 
