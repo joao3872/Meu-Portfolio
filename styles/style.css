@@ -239,6 +239,22 @@ main .curriculo .buttons-cv .cv:hover {
     color: var(--orange-red);
 }
 
+.modal_informacoes .scroll .linguagens #icon:hover, .ferramentas #icon:hover {
+    animation: efeito 3s ease-in infinite alternate;
+}
+
+@keyframes efeito {
+    0% {
+        transform: rotate(25deg);
+    }
+    50% {
+        transform:scale(120%);
+    }
+    100% {
+        transform: rotate(-25deg);
+    }
+}
+
 
 @media screen and (min-width: 601px) {
     main .container {
