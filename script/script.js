@@ -1,3 +1,5 @@
+let linksDoMenu = document.querySelector('.menu a')
+
 function abrirMenu() {
     var menu = document.querySelector('nav.menu')
     var iconMenu = document.querySelector('span.icon-menu')
@@ -20,6 +22,14 @@ function fecharMenu() {
 }
 
 
+// Escutador de eventos, para ativar a função anônima, quando o link for clicado.
+
+linksDoMenu.addEventListener('click', () => {
+    fecharMenu()
+})
+
+
+
 function abrirContatos() {
     var modal = document.querySelector('section.fundo-modal')
 
@@ -33,6 +43,7 @@ function fecharContatos() {
 
     modal.style.display = 'none'
 }
+
 
 
 function modalInformacoes() {
