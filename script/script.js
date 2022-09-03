@@ -54,15 +54,11 @@ linksDoMenu.addEventListener('click', () => {
 
 function abrirContatos() {
     /*var modal = document.querySelector('section.fundo-modal')*/
-
     modal.style.display = 'block'
-    
-    fecharMenu()
 }
 
 function fecharContatos() {
     /*var modal = document.querySelector('section.fundo-modal')*/
-
     modal.style.display = 'none'
 }
 
@@ -70,13 +66,11 @@ function fecharContatos() {
 
 function modalInformacoes() {
     /*var informacoes = document.querySelector('.modal_informacoes')*/
-
     informacoes.style.display = 'block'
 }
 
 
 function fecharInformacoes() {
     /*var informacoes = document.querySelector('.modal_informacoes')*/
-
     informacoes.style.display = 'none'
 }
