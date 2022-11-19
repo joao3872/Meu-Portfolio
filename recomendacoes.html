@@ -7,16 +7,16 @@
     <title>Minhas Recomendações</title>
     <link rel="stylesheet" href="styles/recomendacoes.css">
 	
-    <script src="script/script.js"></script>
+    <script src="script/script.js" defer></script>
     <link rel="stylesheet" href="styles/global.css">
 				
-    <script src="script/recomendacoes.js"></script>
+    <script src="script/recomendacoes.js" defer></script>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
-<body>
+<body onscroll="buttonTop()">
 
     <header>
-        <a href="index.html">
+        <a href="index">
             <span class="logo">
                 Meu Portfólio
             </span>
@@ -29,10 +29,9 @@
         </span>
         
         <span 
-          class="close-menu"
+          class="fas fa-times close-menu"
           onclick="fecharMenu()"
         >
-            &times;
         </span>
         
         <nav class="menu">
@@ -42,12 +41,12 @@
                     Contatos
             </a>
                         
-            <a href="projetos.html" onclick="fecharMenu()" target="_blank">
+            <a href="projetos" onclick="fecharMenu()" target="_blank">
                 <i class="fas fa-chart-line"></i>
                     Projetos
             </a>
                         
-            <a href="recomendacoes.html" onclick="fecharMenu()" target="_blank">
+            <a href="recomendacoes" onclick="fecharMenu()" target="_blank">
                 <i class="far fa-check-circle"></i>
                     Recomendações
             </a>
@@ -66,41 +65,51 @@
                     <p>Alura é uma plataforma muito boa, e possui alguns cursos !</p>
                                                         
                     <li>
-                        <a href="https://www.alura.com.br/artigos" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://www.alura.com.br/artigos" target="_blank" class="link">
                             Acessar Alura
                         </a>
+                      </button>
                     </li>
                                                         
                     <p>DevMedia é ótimo, e seus conteúdos são explicados de forma resumida. Também possui cursos.</p>
                                                         
                     <li>
-                        <a href="https://www.devmedia.com.br/artigos/" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://www.devmedia.com.br/artigos/" target="_blank" class="link">
                             Acessar DevMedia
                         </a>
+                      </button>
                     </li>
                                                         
                     <p>Dev.to é um blog muito bom, e seus artigos são de fácil entendimento !</p>
                                                         
                     <li>
-                        <a href="https://dev.to/" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://dev.to/" target="_blank" class="link">
                             Acessar Dev.to
                         </a>
+                      </button>
                     </li>
                                                         
                     <p>O blog do Geekhunter, possui artigos e dicas interessantes !</p>
                                                         
                     <li>
-                        <a href="https://blog.geekhunter.com.br/amp/" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://blog.geekhunter.com.br/amp/" target="_blank" class="link">
                             Acessar Geekhunter
                         </a>
+                      </button>
                     </li>
                                                         
                     <p>Mentorama é um site, que esclarece algumas dúvidas sobre áreas tecnológicas e de linguagens, e tem alguns cursos.</p>
                                                         
                     <li>
-                        <a href="https://mentorama.com.br/blog/programacao/" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://mentorama.com.br/blog/programacao/" target="_blank" class="link">
                             Acessar Mentorama
                         </a>
+                      </button>
                     </li>
                 </ul>
             </div>
@@ -125,57 +134,71 @@
                     <p>O Curso em Vídeo, tem um curso de Javascript muito bom, voltado para iniciantes !</p>
                                                         
                     <li>
-                        <a href="https://www.cursoemvideo.com/curso/javascript/" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://www.cursoemvideo.com/curso/javascript/" target="_blank" class="link">
                             Acessar o Curso
                         </a>
+                      </button>
                     </li>
                                                         
                     <p>No Curso em Vídeo, tem um curso de Git e GitHub, é muito bom ! E os comandos não são usados por terminal, é tudo feito no GitHub Desktop !</p>
                                                         
                     <li>
-                        <a href="https://www.cursoemvideo.com/curso/curso-de-git-e-github/" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://www.cursoemvideo.com/curso/curso-de-git-e-github/" target="_blank" class="link">
                             Acessar o Curso
                         </a>
+                      </button>
                     </li>
                     <div class="parte-lista">
                         <p>O curso da Digital Innovation One, de Git e GitHub, é muito bom ! Neste curso os comandos são usados no GitBash terminal do git.</p>
                                                         
                         <li>
-                            <a href="https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/75b9fe49-6ed4-4480-83a7-7e37fc356aa9/?back=/browse" target="_blank" class="button_link">
+                          <button class="button_link">
+                            <a href="https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/75b9fe49-6ed4-4480-83a7-7e37fc356aa9/?back=/browse" target="_blank" class="link">
                                 Acessar o Curso
                             </a>
+                          </button>
                         </li>
                                                         
                         <p>A NLW possui um curso chamado Missão Discover, é um curso muito bom ! E a professora explica muito bem !</p>
                                                         
                         <li>
-                            <a href="https://youtube.com/playlist?list=PLTIs57kWMHcSuysPVSy-4sKMy_Azo2IWQ" target="_blank" class="button_link">
+                          <button class="button_link">
+                            <a href="https://youtube.com/playlist?list=PLTIs57kWMHcSuysPVSy-4sKMy_Azo2IWQ" target="_blank" class="link">
                                 Acessar o Curso
                             </a>
+                          </button>
                         </li>
                                                         
                         <p>Se você quiser conhecer mais cursos do Curso em Vídeo acesse o link:</p>
                                                         
                         <li>
-                            <a href="https://www.cursoemvideo.com/cursos/" target="_blank" class="button_link">
+                          <button class="button_link">
+                            <a href="https://www.cursoemvideo.com/cursos/" target="_blank" class="link">
                                 Acessar o Site
                             </a>
+                          </button>
                         </li>
                                                         
                         <p>Caso você tenha gostado da DIO acesse o link, porém, terá que fazer um cadastro, para poder acessar os cursos da plataforma:</p>
                                                         
                         <li>
-                            <a href="https://digitalinnovation.one/" target="_blank" class="button_link">
+                          <button class="button_link">
+                            <a href="https://digitalinnovation.one/" target="_blank" class="link">
                                 Acessar o Site
                             </a>
+                          </button>
                         </li>
                                                         
                         <p>Agora, se a NLW chamou a sua atenção, acesse e veja outros cursos:</p>
                                                         
                         <li>
-                            <a href="https://nextlevelweek.com/inscricao/" target="_blank" class="button_link">
+                          <button class="button_link">
+                            <a href="https://nextlevelweek.com/inscricao/" target="_blank" class="link">
                                 Acessar o Site
                             </a>
+                          </button>
                         </li>
                     </div>
                 </ul>
@@ -246,65 +269,81 @@
                     <p>Python é uma linguagem de programação do tipo interpretada, a versão mais recente é o Python 3, é uma excelente linguagem e de fácil compreensão ! Python serve para: Ciência de Dados, Big Data, IA, Computação Gráfica, Scripting e Automação, e Desenvolvimento Web. </p>
                                                         
                     <li>
-                        <a href="https://www.python.org/" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://www.python.org/" target="_blank" class="link">
                             Python
                         </a>
+                      </button>
                     </li>
                                                         
                     <p>Javascript é uma linguagem de programação do tipo interpretada, na qual, é muito utilizada no desenvolvimento web, construção de servidores web, criação e desenvolvimento de apps e jogos.</p>
                                                         
                     <li>
-                        <a href="https://www.javascript.com/" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://www.javascript.com/" target="_blank" class="link">
                             Javascript
                         </a>
+                      </button>
                     </li>
                                                         
                     <p>HTML (Hypertext Markup Language), a versão mais recente é o HTML5, serve para inserir as informações do seu site. Como parágrafos, títulos, imagens, vídeos, entre outros, é o conteúdo de todas as páginas de um site.</p>
                                                         
                     <li>
-                        <a href="https://www.devmedia.com.br/guia/html/38051" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://www.devmedia.com.br/guia/html/38051" target="_blank" class="link">
                             Sobre HTML5
                         </a>
+                      </button>
                     </li>
                     <div class="continuacao">
                         <p>CSS (Cascading Style Sheets), a versão mais recente é o CSS3, serve para a estilização de páginas web, e para responsividade das páginas. Sem dúvidas, que o CSS3 é uma linguagem muito importante, que se aplica perfeitamente ao HTML5 ! E também, não é uma linguagem de programação.</p>
                                                         
                         <li>
-                            <a href="https://www.devmedia.com.br/guia/css/38149" target="_blank" class="button_link">
+                          <button class="button_link">
+                            <a href="https://www.devmedia.com.br/guia/css/38149" target="_blank" class="link">
                                 Sobre CSS3
                             </a>
+                          </button>
                         </li>
                                                         
                         <p>Git é uma ferramenta muito útil para os seus projetos e ainda mais para o GitHub. Com isso, você pode usar comandos para subir os repositórios locais para o GitHub, que é um Servidor Remoto, pode puxar um repositório remoto para a sua máquina, para resolver conflitos, clonar repositórios, entre outros. Tudo isso de forma segura !</p>
                                                         
                         <li>
-                            <a href="https://git-scm.com/" target="_blank" class="button_link">
+                          <button class="button_link">
+                            <a href="https://git-scm.com/" target="_blank" class="link">
                                 Site do Git
                             </a>
+                          </button>
                         </li>
                        
                         <p>GitHub é um Software de código aberto, no qual, serve para fazer o versionamento de código. E com isso, você pode armazenar todos os códigos de seus projetos, já que é um servidor remoto!</p>
                                                         
                         <li>
-                             <a href="https://github.com/" target="_blank" class="button_link">
+                          <button class="button_link">
+                             <a href="https://github.com/" target="_blank" class="link">
                                  GitHub
                              </a>
+                          </button>
                         </li>
                                                         
                         <p>No link abaixo, estão as 10 linguagens de programação mais requisitadas no mercado de trabalho, existe mais do que 10 linguagens, mas, essas são as principais !</p>
                                                         
                         <li>
-                            <a href="https://br.noticias.yahoo.com/10-linguagens-programa%C3%A7%C3%A3o-que-o-183000176.html" target="_blank" class="button_link">
+                          <button class="button_link">
+                            <a href="https://br.noticias.yahoo.com/10-linguagens-programa%C3%A7%C3%A3o-que-o-183000176.html" target="_blank" class="link">
                                 Mais Linguagens
                             </a>
+                          </button>
                         </li>
                                                         
                         <p>Abaixo tem 27 ferramentas úteis para desenvolvedores e programadores:</p>
                                                         
                         <li>
-                            <a href="https://onebitcode.com/ferramentas-programador/" target="_blank" class="button_link">
+                          <button class="button_link">
+                            <a href="https://onebitcode.com/ferramentas-programador/" target="_blank" class="link">
                                 Mais Ferramentas
                             </a>
+                          </button>
                         </li>
                     </div>
                 </ul>
@@ -333,45 +372,60 @@
                     <p><strong>Gustavo Guanabara</strong>, professor do Curso em Vídeo, os cursos dele são excelentes ! Ele sempre fala que o curso em video, não é apenas dele, mas sim, da equipe também.</p>
                                                         
                     <li>
-                        <a href="https://youtube.com/c/CursoemV%C3%ADdeo" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://youtube.com/c/CursoemV%C3%ADdeo" target="_blank" class="link">
                             Acessar Canal
                         </a>
+                      </button>
                     </li>
                                                         
                     <p><strong>Rafaella Ballerini</strong>, é uma Desenvolvedora muito boa, trabalha na Alura, e ela possui uma excelente explicação !</p>
                                                         
                     <li>
-                        <a href="https://youtube.com/c/rafaellaballerini" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://youtube.com/c/rafaellaballerini" target="_blank" class="link">
                             Acessar Canal
                         </a>
+                      </button>
                     </li>
                                                         
                     <p><strong>Jakeliny Gracielly</strong>, é uma professora que explica o conteúdo de forma excelente e dar dicas úteis !</p>
                                                         
                     <li>
-                         <a href="https://youtube.com/c/JakelinyGracielly" target="_blank" class="button_link">
+                      <button class="button_link">
+                         <a href="https://youtube.com/c/JakelinyGracielly" target="_blank" class="link">
                             Acessar Canal
                          </a>
+                      </button>
                     </li>
 
                     <p><strong>Michelli Brito</strong>, explica o conteúdo, de forma clara e objetiva !</p>
                                                         
                     <li>
-                        <a href="https://youtube.com/c/MichelliBrito" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://youtube.com/c/MichelliBrito" target="_blank" class="link">
                             Acessar Canal
                         </a>
+                      </button>
                     </li>
                                                         
                     <p><strong>Danilo Aparecido</strong>, tem uma variedade grande de cursos !</p>
                                                         
                     <li>
-                        <a href="https://youtube.com/c/DaniloAparecido" target="_blank" class="button_link">
+                      <button class="button_link">
+                        <a href="https://youtube.com/c/DaniloAparecido" target="_blank" class="link">
                             Acessar Canal
                         </a>
+                      </button>
                     </li>
                 </ul>
             </div>
         </section>
+
+        <button class="topo" onclick="scrolltop()">
+	    <img src="imagens/arrow-up-solid.svg" alt="top" class="icon-top" />
+	</button>
+
     </main>
 
         <section class="fundo-modal">

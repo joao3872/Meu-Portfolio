@@ -5,28 +5,28 @@ main .container {
     background-position: 0 60px;
     width: 100%;
     height: 100%;
-    padding: 10px 10px 22px 10px;
+    padding: .625rem .625rem 1.375rem .625rem;
 }
 
 main .container .informacoes {
     background: rgba(138, 138, 138, .8);
     width: 95%;
     margin: auto;
-    border-radius: 15px 0;
-    margin-top: 75px;
-    padding: 10px 10px 20px 10px;
+    border-radius: .9375rem 0;
+    margin-top: 4.6875rem;
+    padding: .625rem .625rem 1.25rem .625rem;
     text-align: center;
     color: rgba(255, 255, 255, .8);
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, .3);
+    box-shadow: .3125rem .3125rem .5rem rgba(0, 0, 0, .3);
 }
 
 main .container .informacoes .foto {
     display: block;
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 6.25rem;
     margin: auto;
-    padding: 10px;
+    padding: .625rem;
 }
 
 main .container .informacoes h3 {
@@ -37,60 +37,60 @@ main .container .informacoes h3 {
 }
 
 main .container .informacoes p {
-    margin-top: 12px;
+    margin-top: .75rem;
     line-height: 1.6;
 }
 
 main .redes {
     width: 100%;
-    padding: 25px 0 15px 0;
+    padding: 1.5625rem 0 .9375rem 0;
     text-align: center;
-    color: var(--white);
+    color: var(--black);
     background: rgba(138, 138, 138, .6);
-    border-bottom: 1px dashed var(--red);
+    border-bottom: .0625rem dashed var(--red);
 }
 
 main .redes .buttons {
     margin: auto;
-    margin: 33px 0 25px 0;
+    margin: 2.0625rem 0 1.5625rem 0;
 }
 
 main .redes .buttons .btn_github, .btn_linkedin, .cv {
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid var(--black);
+    padding: .625rem;
+    border-radius: .5rem;
+    border: .0625rem solid var(--black);
     font: bold 12pt Arial;
     color: var(--black);
 }
 
 main .redes .buttons .btn_linkedin {
     color: var(--blue-linkedin);
-    border: 1px solid var(--blue-linkedin);
-    margin-left: 25px;
+    border: .0625rem solid var(--blue-linkedin);
+    margin-left: 1.5625rem;
 }
 
 main .redes .buttons .btn_github:hover, .btn_linkedin:hover {
     background: var(--black);
     color: var(--white);
-    border: 1.5px solid var(--white);
+    border: .09375rem solid var(--white);
 }
 
 main .redes .buttons .btn_linkedin:hover {
     background: var(--blue-linkedin);
     color: var(--white);
-    border: 1.5px solid var(--white);
+    border: .09375rem solid var(--white);
 }
 
 
 main .curriculo {
     background: rgba(138, 138, 138, .4);
     color: var(--footer);
-    padding: 15px 0 35px 0;
+    padding: .9375rem 0 2.1875rem 0;
     width: 100%;
 }
 
 main .curriculo h4 {
-    margin: 10px 0 25px 0;
+    margin: .625rem 0 1.5625rem 0;
     text-align: center;
 }
 
@@ -100,24 +100,33 @@ main .curriculo .buttons-cv {
 }
 
 main .curriculo .buttons-cv p {
-    margin: 10px 20px;
+    margin: .625rem 1.25rem;
     font-weight: bold;
 }
 
 main .curriculo .buttons-cv .cv {
+    background: var(--transparent);
+    border: .0625rem solid var(--purple);
+}
+
+main .curriculo .buttons-cv .cv .link {
+    cursor: default;
+}
+
+main .curriculo .buttons-cv .cv, .link {
     color: var(--purple);
-    border: 1px solid var(--purple);
 }
 
 main .curriculo .buttons-cv .cv:hover {
-    color: var(--white);
-    background: var(--purple);
+    box-shadow: 0 .5em .5em -.4em var(--purple);
+    transform: translateY(-.25em);
 }
 
 
 .btn_informacoes {
     background: var(--orange);
     position: fixed;
+<<<<<<< HEAD
     right: 15px;
     bottom: 25px;
     width: 60px;
@@ -129,6 +138,19 @@ main .curriculo .buttons-cv .cv:hover {
 
 .btn_informacoes .img_info {
     height: 30px;
+=======
+    right: .9375rem;
+    bottom: 1.5625rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    animation: float 3s ease-in-out infinite;
+    border-radius: 3.75rem;
+    border: .125rem solid var(--black);
+}
+
+.btn_informacoes .img_info {
+    height: 1.875rem;
+>>>>>>> ebc6de40b6a4762aca2b13558c027544df60bbce
 }
 
 @keyframes float {
@@ -136,7 +158,11 @@ main .curriculo .buttons-cv .cv:hover {
         transform: translateY(0);
     }
     50% {
+<<<<<<< HEAD
         transform: translateY(-25px);
+=======
+        transform: translateY(-1.5625rem);
+>>>>>>> ebc6de40b6a4762aca2b13558c027544df60bbce
     }
     100% {
         transform: translateY(0);
@@ -147,6 +173,7 @@ main .curriculo .buttons-cv .cv:hover {
     display: none;
     background: var(--white);
     width: 85%;
+<<<<<<< HEAD
     border: 2px solid var(--black);
     padding: 10px 18px 35px 18px;
     border-radius: 0 20px;
@@ -154,6 +181,15 @@ main .curriculo .buttons-cv .cv:hover {
     position: fixed;
     right: 15px;
     bottom: 25px;
+=======
+    border: .125rem solid var(--black);
+    padding: .625rem 1.125rem 2.1875rem 1.125rem;
+    border-radius: 0 1.25rem;
+    box-shadow: .3125rem .3125rem .5rem rgba(0, 0, 0, .6);
+    position: fixed;
+    right: .9375rem;
+    bottom: 1.5625rem;
+>>>>>>> ebc6de40b6a4762aca2b13558c027544df60bbce
 }
 
 .modal_informacoes .fechar_modal {
@@ -162,6 +198,7 @@ main .curriculo .buttons-cv .cv:hover {
 }
 
 .modal_informacoes .fechar_modal img {
+<<<<<<< HEAD
     height: 30px;
 }
 
@@ -171,10 +208,22 @@ main .curriculo .buttons-cv .cv:hover {
     height: 230px;
     overflow-x: hidden;
     padding: 0 10px;
+=======
+    height: 1.875rem;
+}
+
+.modal_informacoes .scroll {
+    margin: .9375rem 0;
+    overflow: scroll;
+    height: 14.375rem;
+    overflow-x: hidden;
+    padding: 0 .625rem;
+>>>>>>> ebc6de40b6a4762aca2b13558c027544df60bbce
     text-align: center;
 }
 
 .modal_informacoes .scroll::-webkit-scrollbar {
+<<<<<<< HEAD
     width: 8px;
 }
 
@@ -194,12 +243,34 @@ main .curriculo .buttons-cv .cv:hover {
 
 .modal_informacoes .scroll .info, .linguagens, .ferramentas {
     padding: 20px 0;
+=======
+    width: .5rem;
+}
+
+.modal_informacoes .scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 .3125rem var(--black);
+    border-radius: .625rem;
+}
+
+.modal_informacoes .scroll::-webkit-scrollbar-thumb {
+    background: var(--brown);
+    border-radius: .625rem;
+}
+
+.modal_informacoes .scroll .info .paragrafo2 {
+    margin-top: 1.25rem;
+}
+
+.modal_informacoes .scroll .info, .linguagens, .ferramentas {
+    padding: 1.25rem 0;
+>>>>>>> ebc6de40b6a4762aca2b13558c027544df60bbce
 }
 
 .modal_informacoes .scroll .linguagens, .ferramentas {
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     gap: 30px;
 }
 
@@ -225,18 +296,145 @@ main .curriculo .buttons-cv .cv:hover {
 
 .modal_informacoes .scroll .ferramentas .vscode {
     height: 28px;
+=======
+    gap: 1.875rem;
+}
+
+.modal_informacoes .scroll .linguagens .html5, .css3, .js, .python, .git {
+    font-size: 1.75rem;
+}
+
+.modal_informacoes .scroll .linguagens .html5 {
+    color: var(--orange-html);
+}
+
+.modal_informacoes .scroll .linguagens .css3 {
+    color: var(--blue-css);
+}
+
+.modal_informacoes .scroll .linguagens .js {
+    color: var(--yellow-js);
+}
+
+.modal_informacoes .scroll .linguagens .python {
+    color: var(--blue-python);
+}
+
+.modal_informacoes .scroll .ferramentas .vscode {
+    height: 1.75rem;
+>>>>>>> ebc6de40b6a4762aca2b13558c027544df60bbce
 }
 
 .modal_informacoes .scroll .ferramentas .git {
     color: var(--orange-red);
 }
 
+<<<<<<< HEAD
+=======
+.modal_informacoes .scroll .linguagens #icon:hover, .ferramentas #icon:hover {
+    animation: efeito 3s ease-in infinite alternate;
+}
+
+@keyframes efeito {
+    0% {
+        transform: rotate(25deg);
+    }
+    50% {
+        transform:scale(120%);
+    }
+    100% {
+        transform: rotate(-25deg);
+    }
+}
+
+
+>>>>>>> ebc6de40b6a4762aca2b13558c027544df60bbce
 @media screen and (min-width: 601px) {
     main .container {
         background-image: url("../imagens/fundo_imagem.png");
     }
 
     main .container .informacoes {
-        width: 400px;
+        width: 25rem;
+    }
+
+    main .curriculo .buttons-cv .cv {
+        cursor: pointer;
+    }
+
+    main .curriculo .buttons-cv .cv .link, .btn_informacoes, .img_info {
+        cursor: pointer;
+    }
+    
+    .modal_informacoes {
+        width: 21.875rem;
+    }
+
+    .modal_informacoes .scroll .linguagens .html5, .css3, .js, .git {
+        margin-right: .9375rem;
+    }
+}
+
+
+@media (prefers-color-scheme: dark) {
+    main .container {
+        background-image: url("../imagens/img-dark.png");
+    }
+
+    main .redes {
+        color: var(--white);
+        background: var(--grey);
+        border-bottom: .0625rem dashed var(--orange-red);
+    }
+
+    main .redes .buttons .btn_linkedin {
+        color: var(--blue-claro);
+        border-color: var(--blue-claro);
+    }
+
+    main .redes .buttons .btn_linkedin:hover {
+        background: var(--blue-claro);
+        color: var(--white);
+    }
+
+    main .curriculo {
+        background: rgba(138, 138, 138, .8);
+        color: var(--white);
+    }
+
+    main .curriculo .buttons-cv .cv {
+        color: var(--purple-claro);
+        border-color: var(--purple-claro);
+    }
+
+    main .curriculo .buttons-cv .cv:hover {
+        color: var(--white);
+        box-shadow: 0 .5em .5em -.4em var(--purple-claro);
+    }
+
+    .btn_informacoes {
+        background: var(--orange-escuro);
+        border-color: var(--white);
+    }
+
+    .modal_informacoes {
+        background: var(--footer);
+        border-color: var(--white);
+        box-shadow: .3125rem .3125rem .5rem rgba(255, 255, 255, .6);
+    }
+
+    .modal_informacoes .scroll h3, p {
+        color: rgba(255, 255, 255, .8);
+    }
+
+    .modal_informacoes .scroll::-webkit-scrollbar-thumb {
+        background: var(--brown-claro);
+    }
+}
+
+
+@media (prefers-color-scheme: dark) and (min-width: 601px) {
+    main .container {
+        background-image: url("../imagens/fundo-dark.png");
     }
 }

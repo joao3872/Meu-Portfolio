@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script src="script/script.js"></script>
+    <script src="script/script.js" defer></script>
 
     <link rel="stylesheet" href="styles/global.css">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
@@ -14,7 +14,7 @@
 <body>
 
     <header>
-        <a href="index.html">
+        <a href="index">
             <span class="logo">
                 Meu Portfólio
             </span>
@@ -27,10 +27,9 @@
         </span>
 
         <span 
-          class="close-menu"
+          class="fas fa-times close-menu"
           onclick="fecharMenu()"
         >
-            &times;
         </span>
 
         <nav class="menu">
@@ -39,12 +38,12 @@
                 Contatos
             </a>
 
-            <a href="projetos.html" onclick="fecharMenu()" target="_blank">
+            <a href="projetos" onclick="fecharMenu()" target="_blank">
               <i class="fas fa-chart-line"></i>
                 Projetos
             </a>
 
-            <a href="recomendacoes.html" onclick="fecharMenu()" target="_blank">
+            <a href="recomendacoes" onclick="fecharMenu()" target="_blank">
               <i class="far fa-check-circle"></i>
                 Recomendações
             </a>
@@ -99,30 +98,81 @@
             <h4>Fique a vontade para conferir meu CV:</h4>
 
             <div class="buttons-cv">
-                <a 
-                  href="https://www.canva.com/design/DAEw_UXZ4JE/9eeS02VxEHw4mqmD_ThQJA/view?utm_content=DAEw_UXZ4JE&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" 
-                  class="cv" 
-                  target="_blank"
-                >
-                  <i class="fas fa-eye"></i>
-                    Ver CV
-                </a>
+                <div class="cv">
+                  <a 
+                    href="https://www.canva.com/design/DAEw_UXZ4JE/9eeS02VxEHw4mqmD_ThQJA/view?utm_content=DAEw_UXZ4JE&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"
+                    class="link"
+                    target="_blank"
+                  >
+                    <i class="fas fa-eye"></i>
+                      Ver CV
+                  </a>
+                </div>
 
                 <p>OU</p>
 
-                <a 
-                  href="imagens/joao_matheus.pdf" 
-                  download="joao_matheus.pdf" 
-                  class="cv"
-                  target="_blank"
-                >
-                  <i class="fas fa-download"></i>
-                    Baixar CV
-                </a>
+                <div class="cv">
+                  <a
+                    href="imagens/joao_matheus.pdf" 
+                    download="joao_matheus.pdf"
+                    class="link"
+                    target="_blank"
+                  >
+                    <i class="fas fa-download"></i>
+                      Baixar CV
+                  </a>
+                </div>
             </div>
 
         </div>
     </main>
+    
+    
+    <button class="btn_informacoes" onclick="modalInformacoes()">
+        <img src="imagens/info.svg" class="img_info" alt="Mais informações" />
+    </button>
+    
+    
+    <article class="modal_informacoes">
+        <div class="fechar_modal">
+            <img src="imagens/close.svg" onclick="fecharInformacoes()" />
+        </div>
+
+        <section class="scroll">
+
+            <h3>Meus Objetivos:</h3>
+
+            <div class="info">
+                <p>Obter conhecimentos e experiências, para me tornar um Desenvolvedor Full Stack. Adquirir capacidade, para Desenvolver aplicativos Mobile !</p>
+
+                <p class="paragrafo2">E conseguir criar soluções tecnológicas, para resolver problemas gerais do Mundo.</p>
+            </div>
+
+            <h3>Linguagens:</h3>
+
+            <div class="linguagens">
+                <span class="fab fa-html5 html5" id="icon"></span>
+                <span class="fab fa-css3-alt css3" id="icon"></span>
+                <span class="fab fa-js js" id="icon"></span>
+                <span class="fab fa-python python" id="icon"></span>
+            </div>
+
+            <h3>Ferramentas:</h3>
+
+            <div class="ferramentas">
+                <span class="fab fa-git-alt git" id="icon"></span>
+                <img src="imagens/vscode.svg" class="vscode" id="icon" />
+            </div>
+
+            <h3>Observações:</h3>
+
+            <p class="info">
+                Abra o Menu, para acessar meus Contatos, Projetos e minhas Recomendações !
+            </p>
+
+        </section>
+    </article>
+    
 
 
     <button class="btn_informacoes" onclick="modalInformacoes()">

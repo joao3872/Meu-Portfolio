@@ -7,15 +7,15 @@
     <title>Meus Projetos</title>
     <link rel="stylesheet" href="styles/projetos.css">
 				
-    <script src="script/script.js"></script>
-	<link rel="stylesheet" href="styles/global.css">
+    <script src="script/script.js" defer></script>
+    <link rel="stylesheet" href="styles/global.css">
 				
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
 
     <header>
-        <a href="index.html">
+        <a href="index">
             <span class="logo">
                 Meu Portfólio
             </span>
@@ -28,10 +28,9 @@
         </span>
         
         <span 
-          class="close-menu"
+          class="fas fa-times close-menu"
           onclick="fecharMenu()"
         >
-            &times;
         </span>
         
         <nav class="menu">
@@ -41,12 +40,12 @@
                     Contatos
             </a>
                         
-            <a href="projetos.html" onclick="fecharMenu()" target="_blank">
+            <a href="projetos" onclick="fecharMenu()" target="_blank">
                 <i class="fas fa-chart-line"></i>
                     Projetos
             </a>
                         
-            <a href="recomendacoes.html" onclick="fecharMenu()" target="_blank">
+            <a href="recomendacoes" onclick="fecharMenu()" target="_blank">
                 <i class="far fa-check-circle"></i>
                     Recomendações
             </a>
@@ -75,49 +74,94 @@
                     </a>
                 </div>
                                                         
-            <div class="column">
-                <a href="https://github.com/joao3872/Criptografia_em_python" target="_blank">
-                    <section class="item">
-                        <img src="imagens/criptografia.png" alt="projeto 2" />
+                <div class="column">
+                    <a href="https://github.com/joao3872/Criptografia_em_python/" target="_blank">
+                        <section class="item">
+                            <img src="imagens/criptografia.png" alt="projeto 2" />
                                         
-                        <div class="area_texto">
-                            <h4>Criptografia em Python</h4>
+                            <div class="area_texto">
+                                <h4>Criptografia em Python</h4>
                                                         
-                            <p>Uma criptografia criada em uma APS da Universidade. Código no qual, fiz algumas melhorias e atualizações, e depois coloquei no GitHub !</p>
-                        </div>
-                    </section>
-                </a>
+                                <p>Uma criptografia criada em uma APS da Universidade. Código no qual, fiz algumas melhorias e atualizações, e depois coloquei no GitHub !</p>
+                            </div>
+                        </section>
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="https://github.com/joao3872/Copiando_Interface_do_Google/" target="_blank">
+                        <section class="item">
+                            <img src="imagens/gclone.png" alt="projeto 3" />
+                                        
+                            <div class="area_texto">
+                                <h4>Copiando Interface do Google</h4>
+                                                        
+                                <p>Gclone é um clone do Google. Porém, eu fiz apenas na Versão Mobile, me inspirando no Google aberto, no Navegador Chrome.</p>
+                            </div>
+                        </section>
+                    </a>
+                </div>
+                        
+                <div class="column">
+                    <a href="https://joao3872.github.io/Usando_Branches_e_Merge/" target="_blank">
+                        <section class="item">
+                            <img src="imagens/branch_merge.png" alt="projeto 4" />
+                                        
+                            <div class="area_texto">
+                                <h4>Usando Branches e Merge</h4>
+                                                        
+                                <p>Essa página é simples, fiz apenas para práticar o uso de Branches (galhos) e Merge (mesclar). E possui algumas informações sobre.</p>
+                            </div>
+                        </section>
+                    </a>
+                </div>
             </div>
 
-            <div class="column">
-                <a href="https://github.com/joao3872/Copiando_Interface_do_Google" target="_blank">
-                    <section class="item">
-                        <img src="imagens/gclone.png" alt="projeto 3" />
-                                        
-                        <div class="area_texto">
-                            <h4>Copiando Interface do Google</h4>
-                                                        
-                            <p>Gclone é um clone do Google. Porém, eu fiz apenas na Versão Mobile, me inspirando no Google aberto, no Navegador Chrome.</p>
-                        </div>
-                    </section>
-                </a>
-            </div>
-                        
-            <div class="column">
-                <a href="https://joao3872.github.io/Usando_Branches_e_Merge" target="_blank">
-                    <section class="item">
-                        <img src="imagens/branch_merge.png" alt="projeto 4" />
-                                        
-                        <div class="area_texto">
-                            <h4>Usando Branches e Merge</h4>
-                                                        
-                            <p>Essa página é simples, fiz apenas para práticar o uso de Branches (galhos) e Merge (mesclar). E possui algumas informações sobre.</p>
-                        </div>
-                    </section>
-                </a>
-            </div>
-        </div>
-                            
+
+            <div class="row">
+	        <div class="column">
+		    <a href="https://joao3872.github.io/Contagem_de_Moedas/" target="_blank">
+		        <section class="item">
+			    <img src="imagens/contagem_moedas.png" alt="projeto 5" />
+																
+			    <div class="area_texto">
+			        <h4>Contagem de Moedas</h4>
+																				
+			        <p>Essa página é um contador de moedas. No qual, você digita um valor e os retornos são a quantidade separada de cada uma das 5 moedas.</p>
+			    </div>
+		        </section>
+		    </a>
+	        </div>
+
+                <div class="column">
+		    <a href="https://joao3872.github.io/Primeira_Landing_Page/" target="_blank">
+		        <section class="item">
+			    <img src="imagens/landing_page.png" alt="projeto 6" />
+																
+			    <div class="area_texto">
+			        <h4>Primeira Landing Page</h4>
+																				
+			        <p>Essa página é uma Landing Page do Silre Bot. Na qual, serve para explicar um pouco, sobre este Bot e como funcionaria a página principal.</p>
+			    </div>
+		        </section>
+		    </a>
+	        </div>
+
+                <div class="column">
+		    <a href="https://joao3872.github.io/Social_Login_e_Cadastro/" target="_blank">
+		        <section class="item">
+			    <img src="imagens/socialLC.png" alt="projeto 7" />
+																
+			    <div class="area_texto">
+			        <h4>Social Login e Cadastro</h4>
+				
+                                <p>Este projeto possui duas páginas, uma de Login e outra de Cadastro. Foram criadas para um grupo fictício sobre linguagens de programação.</p>
+			    </div>
+		        </section>
+		    </a>
+	        </div>
+	    </div>
+            
         </div>
     </main>
         
