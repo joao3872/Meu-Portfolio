@@ -41,23 +41,12 @@ function fecharContatos() {
 }
 
 
-<<<<<<< HEAD
-function modalInformacoes() {
-    var informacoes = document.querySelector('.modal_informacoes')
-
-=======
 
 function modalInformacoes() {
->>>>>>> ebc6de40b6a4762aca2b13558c027544df60bbce
     informacoes.style.display = 'block'
 }
 
 
 function fecharInformacoes() {
-<<<<<<< HEAD
-    var informacoes = document.querySelector('.modal_informacoes')
-
-=======
->>>>>>> ebc6de40b6a4762aca2b13558c027544df60bbce
     informacoes.style.display = 'none'
 }
