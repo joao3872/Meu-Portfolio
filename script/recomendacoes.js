@@ -51,3 +51,23 @@ function menos() {
     buttonMenos.style.display = 'none'
     buttonMais.style.display = 'block'
 }
+
+
+
+function scrolltop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
+
+
+function buttonTop() {
+    var topo = document.querySelector('button.topo')
+
+    if (document.documentElement.scrollTop == 0) {
+        topo.style.display = 'none'
+    } else {
+        topo.style.display = 'flex'
+    }
+}
