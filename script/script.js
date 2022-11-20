@@ -25,6 +25,10 @@ function fecharMenu() {
 
 function abrirContatos() {
     modal.style.display = 'block'
+
+    if (modal.style.display != 'none') {
+        fecharMenu()
+    }
 }
 
 function fecharContatos() {
