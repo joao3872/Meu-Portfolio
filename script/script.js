@@ -4,8 +4,6 @@ let iconMenu = document.querySelector('.icon-menu')
 
 let iconClose = document.querySelector('.close-menu')
 
-let linksDoMenu = document.querySelector('.menu a')
-
 // modal contatos e modal informações:
 let modal = document.querySelector('.fundo-modal')
 
@@ -23,13 +21,6 @@ function fecharMenu() {
     iconMenu.style.display = 'block'
     iconClose.style.display = 'none'
 }
-
-
-// Escutador de eventos para ativar a Arrow Function, quando qualquer um dos links do menu for clicado.
-
-linksDoMenu.addEventListener('click', () => {
-    fecharMenu()
-})
 
 
 function abrirContatos() {
