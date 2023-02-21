@@ -350,7 +350,7 @@ main .curriculo .buttons-cv .cv:hover {
 
 @media screen and (orientation: landscape) {
     .modal_informacoes {
-        width: 60%;
+        width: 65%;
     }
 
     .modal_informacoes .scroll {
