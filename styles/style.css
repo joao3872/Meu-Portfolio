@@ -346,3 +346,14 @@ main .curriculo .buttons-cv .cv:hover {
         background-image: url("../imagens/fundo-dark.png");
     }
 }
+
+
+@media screen and (orientation: landscape) {
+    .modal_informacoes {
+        width: 75%;
+    }
+
+    .modal_informacoes .scroll {
+        height: 9.375rem;
+    }
+}
