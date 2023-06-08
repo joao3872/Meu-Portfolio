@@ -248,6 +248,9 @@ footer {
     
     main h3 {
         background: linear-gradient(.5turn, var(--aqua-marine), var(--yellow));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: var(--transparent);
     }
 
     .fundo-modal .modal-contatos {
