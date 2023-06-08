@@ -291,6 +291,9 @@ main .curriculo .buttons-cv .cv:hover {
     
     main .container .informacoes h3 {
         background: linear-gradient(.2turn, var(--aqua-marine), var(--yellow));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: var(--transparent);
     }
 
     main .redes {
