@@ -288,6 +288,10 @@ main .curriculo .buttons-cv .cv:hover {
     main .container {
         background-image: url("../imagens/img-dark.png");
     }
+    
+    main .container .informacoes h3 {
+        background: linear-gradient(.2turn, var(--aqua-marine), var(--yellow));
+    }
 
     main .redes {
         color: var(--white);
