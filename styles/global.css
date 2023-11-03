@@ -41,7 +41,7 @@ html {
     --blue-claro: #4040ff;
     --orange-escuro: #c68d22;
     --coral-escuro: #cc202c;
-    --sky-blue: #00bfff;
+    --blue-cyan: #0064ff;
     --yellow-js: #F7DF1E;
     --blue-python: #3776AB;
     --brown-claro: #cc3737;
@@ -239,7 +239,7 @@ footer {
     }
 
     header .menu a {
-        color: var(--white);
+        color: var(--black);
     }
 
     header .menu a:hover {
