@@ -82,11 +82,11 @@ header .icon-menu, .close-menu {
 }
 
 header .icon-menu {
-    height: 28px;
+    height: 38px;
 }
 
 header .close-menu {
-    height: 28px;
+    height: 38px;
     padding: .5rem .625rem;
     border: .0625rem solid var(--red);
     display: none;
@@ -113,6 +113,10 @@ header .menu a {
 
 header .menu a:hover {
     background: var(--hover-menu);
+}
+
+header .menu a .icon {
+    height: 16px;
 }
 
 header .menu a .icon, .buttons_contatos .gmail {
