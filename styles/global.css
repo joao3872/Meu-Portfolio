@@ -154,9 +154,6 @@ header .menu a .icon, .buttons_contatos .gmail {
 
 .fundo-modal .modal-contatos .buttons_contatos {
     margin: 2.1875rem 0 1.875rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .fundo-modal .modal-contatos .buttons_contatos .gmail, .whatsapp {
     border: .0625rem solid var(--red);
@@ -164,6 +161,9 @@ header .menu a .icon, .buttons_contatos .gmail {
     padding: .625rem;
     border-radius: .5rem;
     font: bold 12pt Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fundo-modal .modal-contatos .buttons_contatos .whatsapp {
