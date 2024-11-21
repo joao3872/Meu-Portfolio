@@ -82,11 +82,11 @@ header .icon-menu, .close-menu {
 }
 
 header .icon-menu {
-    height: 16px;
+    height: 28px;
 }
 
 header .close-menu {
-    height: 16px;
+    height: 28px;
     padding: .5rem .625rem;
     border: .0625rem solid var(--red);
     display: none;
@@ -150,6 +150,7 @@ header .menu a .icon, .buttons_contatos .gmail {
 .fundo-modal .modal-contatos .buttons_contatos {
     margin: 2.1875rem 0 1.875rem 0;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .fundo-modal .modal-contatos .buttons_contatos .gmail, .whatsapp {
