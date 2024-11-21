@@ -146,7 +146,7 @@ header .menu a .icon, .buttons_contatos .gmail {
 .fundo-modal .modal-contatos .buttons_contatos {
     margin: 2.1875rem 0 1.875rem 0;
 }
-.fundo-modal .modal-contatos .buttons_contatos .gmail, .google, .whatsapp {
+.fundo-modal .modal-contatos .buttons_contatos .gmail, .whatsapp {
     border: .0625rem solid var(--red);
     height: 16px;
     color: var(--red);
