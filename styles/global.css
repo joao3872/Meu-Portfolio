@@ -75,8 +75,8 @@ header .logo {
 
 header .icon-menu, .close-menu {
     float: right;
-    padding: .5rem;
     height: 18px;
+    padding: .5rem;
     border: .0625rem solid var(--grey);
     border-radius: .5rem;
     cursor: pointer;
@@ -111,7 +111,7 @@ header .menu a:hover {
     background: var(--hover-menu);
 }
 
-header .menu a .icon, .buttons_contatos .gmail, .whatsapp {
+header .menu a .icon, .buttons_contatos .gmail {
     margin-right: .3125rem;
 }
 
@@ -148,10 +148,10 @@ header .menu a .icon, .buttons_contatos .gmail, .whatsapp {
 }
 .fundo-modal .modal-contatos .buttons_contatos .gmail, .whatsapp {
     border: .0625rem solid var(--red);
+    height: 16px;
     padding: .625rem;
     border-radius: .5rem;
     font: bold 12pt Arial;
-    height: 16px;
 }
 
 .fundo-modal .modal-contatos .buttons_contatos .whatsapp {
