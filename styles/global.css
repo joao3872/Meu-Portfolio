@@ -148,7 +148,6 @@ header .menu a .icon, .buttons_contatos .gmail {
 }
 .fundo-modal .modal-contatos .buttons_contatos .gmail, .whatsapp {
     border: .0625rem solid var(--red);
-    height: 16px;
     color: var(--red);
     padding: .625rem;
     border-radius: .5rem;
@@ -156,10 +155,13 @@ header .menu a .icon, .buttons_contatos .gmail {
 }
 
 .fundo-modal .modal-contatos .buttons_contatos .whatsapp {
-    height: 16px;
     color: var(--green-whatsapp);
     border: .0625rem solid var(--green-whatsapp);
     margin-left: .9375rem;
+}
+
+.fundo-modal .modal-contatos .buttons_contatos .google, .whatsapp {
+    height: 16px;
 }
 
 .fundo-modal .modal-contatos .buttons_contatos .gmail:hover {
