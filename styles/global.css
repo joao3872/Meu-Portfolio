@@ -146,9 +146,10 @@ header .menu a .icon, .buttons_contatos .gmail {
 .fundo-modal .modal-contatos .buttons_contatos {
     margin: 2.1875rem 0 1.875rem 0;
 }
-.fundo-modal .modal-contatos .buttons_contatos .gmail, .whatsapp {
+.fundo-modal .modal-contatos .buttons_contatos .gmail, .google, .whatsapp {
     border: .0625rem solid var(--red);
     height: 16px;
+    color: var(--red);
     padding: .625rem;
     border-radius: .5rem;
     font: bold 12pt Arial;
@@ -156,6 +157,7 @@ header .menu a .icon, .buttons_contatos .gmail {
 
 .fundo-modal .modal-contatos .buttons_contatos .whatsapp {
     height: 16px;
+    color: var(--green-whatsapp);
     border: .0625rem solid var(--green-whatsapp);
     margin-left: .9375rem;
 }
@@ -172,7 +174,7 @@ header .menu a .icon, .buttons_contatos .gmail {
 
 .fundo-modal .modal-contatos .fas {
     margin: .625rem 0 0 .9375rem;
-    color: var(--orange);
+    height: 30px;
     font-size: 1.375rem;
     display: flex;
     justify-content: flex-start;
