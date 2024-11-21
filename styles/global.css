@@ -166,6 +166,7 @@ header .menu a .icon, .buttons_contatos .gmail {
 
 .fundo-modal .modal-contatos .buttons_contatos .google, .whatsappIcon {
     height: 16px;
+    margin-right: 10px;
 }
 
 .fundo-modal .modal-contatos .buttons_contatos .gmail:hover {
