@@ -75,16 +75,14 @@ header .logo {
 
 header .icon-menu, .close-menu {
     float: right;
-    color: var(--grey);
     padding: .5rem;
-    height: 16px;
+    height: 18px;
     border: .0625rem solid var(--grey);
     border-radius: .5rem;
     cursor: pointer;
 }
 
 header .close-menu {
-    color: var(--red);
     padding: .5rem .625rem;
     border: .0625rem solid var(--red);
     display: none;
