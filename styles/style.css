@@ -63,6 +63,10 @@ main .redes .buttons .btn_github, .btn_linkedin, .cv {
     color: var(--black);
 }
 
+main .redes .buttons .btn_github .iconGithub, .iconLinkedin, .iconEye, .iconDownload {
+    height: 18px;
+}
+
 main .redes .buttons .btn_linkedin {
     color: var(--blue-linkedin);
     border: .0625rem solid var(--blue-linkedin);
@@ -211,11 +215,11 @@ main .curriculo .buttons-cv .cv:hover {
     gap: 30px;
 }
 
-.modal_informacoes .scroll .linguagens .html5, .css3, .js, .python, .git {
-    font-size: 1.75rem;
+.modal_informacoes .scroll .linguagens .html5, .css3, .js, .python, .git, .vscode {
+    height: 1.75rem;
 }
 
-.modal_informacoes .scroll .linguagens .html5 {
+/*.modal_informacoes .scroll .linguagens .html5 {
     color: var(--orange-html);
 }
 
@@ -231,13 +235,9 @@ main .curriculo .buttons-cv .cv:hover {
     color: var(--blue-python);
 }
 
-.modal_informacoes .scroll .ferramentas .vscode {
-    height: 1.75rem;
-}
-
 .modal_informacoes .scroll .ferramentas .git {
     color: var(--orange-red);
-}
+}*/
 
 
 .modal_informacoes .scroll .linguagens #icon:hover, .ferramentas #icon:hover {
