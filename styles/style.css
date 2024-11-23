@@ -61,6 +61,9 @@ main .redes .buttons .btn_github, .btn_linkedin, .cv {
     border: .0625rem solid var(--black);
     font: bold 12pt Arial;
     color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main .redes .buttons .btn_github .iconGithub, .iconLinkedin, .iconEye, .iconDownload {
