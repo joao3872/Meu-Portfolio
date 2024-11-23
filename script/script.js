@@ -123,6 +123,10 @@ function changeTheme(event) {
         iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid.svg')
         iconEye.setAttribute('src', 'imagens/eye-solid.svg')
         iconDownload.setAttribute('src', 'imagens/download-solid.svg')
+        
+        btnLinkedin.addEventListener('mouseleave', () => {
+            iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid.svg')
+        })
     }
 }
 
