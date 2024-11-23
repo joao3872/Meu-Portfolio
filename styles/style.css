@@ -53,6 +53,7 @@ main .redes {
 main .redes .buttons {
     margin: auto;
     margin: 2.0625rem 0 1.5625rem 0;
+    display: flex;
 }
 
 main .redes .buttons .btn_github, .btn_linkedin, .cv {
@@ -68,6 +69,7 @@ main .redes .buttons .btn_github, .btn_linkedin, .cv {
 
 main .redes .buttons .btn_github .iconGithub, .iconLinkedin, .iconEye, .iconDownload {
     height: 18px;
+    margin-right: 7px;
 }
 
 main .redes .buttons .btn_linkedin {
