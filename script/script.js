@@ -13,6 +13,12 @@ let btn = document.querySelectorAll('.btn')
 
 let icons = document.querySelectorAll('.icons')
 
+let iconLinkedin = document.querySelector('.iconLinkedin')
+
+let iconEye = document.querySelector('.iconEye')
+
+let iconDownload = document.querySelector('.iconDownload')
+
 
 function abrirMenu() {
     menu.style.display = 'block'
@@ -92,3 +98,30 @@ function hoverOff() {
 }
 
 hoverOff()
+
+
+
+
+const prefersColorScheme = window.matchMedia('(prefers-color-scheme: dark)')
+
+function changeTheme(event) {
+    if (event.matches) {
+        iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
+        iconEye.setAttribute('src', 'imagens/eye-solid2.svg')
+        
+        iconDownload.setAttribute('src', 'imagens/download-solid2.svg')
+    } else {
+        iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid.svg')
+        iconEye.setAttribute('src', 'imagens/eye-solid.svg')
+        
+        iconDownload.setAttribute('src', 'imagens/download-solid.svg')
+    }
+}
+
+// Escuta a mudança de Tema, na função changeTheme(event) com base no perfersColorScheme.
+
+prefersColorScheme.addListener(changeTheme)
+
+// Após as mudanças serem escutadas, as mudanças são aplicadas.
+
+changeTheme(prefersColorScheme)
