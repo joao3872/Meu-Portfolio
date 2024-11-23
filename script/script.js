@@ -19,6 +19,8 @@ let iconEye = document.querySelector('.iconEye')
 
 let iconDownload = document.querySelector('.iconDownload')
 
+let btnLinkedin = document.querySelector('.btn_linkedin')
+
 
 function abrirMenu() {
     menu.style.display = 'block'
@@ -108,12 +110,18 @@ function changeTheme(event) {
     if (event.matches) {
         iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
         iconEye.setAttribute('src', 'imagens/eye-solid2.svg')
-        
         iconDownload.setAttribute('src', 'imagens/download-solid2.svg')
+
+        btnLinkedin.addEventListener('mouseenter', () => {
+            iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
+        })
+
+        btnLinkedin.addEventListener('mouseleave', () => {
+            iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
+        })
     } else {
         iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid.svg')
         iconEye.setAttribute('src', 'imagens/eye-solid.svg')
-        
         iconDownload.setAttribute('src', 'imagens/download-solid.svg')
     }
 }
