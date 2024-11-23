@@ -226,30 +226,10 @@ main .curriculo .buttons-cv .cv:hover {
     height: 1.75rem;
 }
 
-/*.modal_informacoes .scroll .linguagens .html5 {
-    color: var(--orange-html);
-}
-
-.modal_informacoes .scroll .linguagens .css3 {
-    color: var(--blue-css);
-}
-
-.modal_informacoes .scroll .linguagens .js {
-    color: var(--yellow-js);
-}
-
-.modal_informacoes .scroll .linguagens .python {
-    color: var(--blue-python);
-}
-
-.modal_informacoes .scroll .ferramentas .git {
-    color: var(--orange-red);
-}*/
-
-
 .modal_informacoes .scroll .linguagens #icon:hover, .ferramentas #icon:hover {
     animation: efeito 3s ease-in infinite alternate;
 }
+
 
 @keyframes efeito {
     0% {
