@@ -51,9 +51,9 @@ main .redes {
 }
 
 main .redes .buttons {
-    margin: auto;
     margin: 2.0625rem 0 1.5625rem 0;
     display: flex;
+    justify-content: center;
 }
 
 main .redes .buttons .btn_github, .btn_linkedin, .cv {
@@ -116,6 +116,7 @@ main .curriculo .buttons-cv p {
 main .curriculo .buttons-cv .cv {
     background: var(--transparent);
     border: .0625rem solid var(--purple);
+    align-items: center;
 }
 
 main .curriculo .buttons-cv .cv .link {
