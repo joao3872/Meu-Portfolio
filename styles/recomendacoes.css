@@ -119,8 +119,7 @@ main .container .fundo-links .container-links .buttons_links .links:hover {
 }
 
 main .container .fundo-links .container-links .fas {
-    color: var(--purple);
-    font-size: 1.375rem;
+    height: 1.875rem;
     display: flex;
     justify-content: flex-start;
     margin: .9375rem 0 0 .9375rem;
