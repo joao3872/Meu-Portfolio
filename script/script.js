@@ -61,6 +61,10 @@ function hoverOn() {
                 icons[0].setAttribute('src', 'imagens/github-brands-solid2.svg')
             } else if (btn[c] == btn[1]) {
                 icons[1].setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
+            } else if (btn[c] == btn[2]) {
+                icons[2].setAttribute('src', 'imagens/google-brands-solid2.svg')
+            } else {
+                icons[3].setAttribute('src', 'imagens/whatsapp-brands-solid2.svg')
             }
         })
     }
@@ -78,6 +82,10 @@ function hoverOff() {
                 icons[0].setAttribute('src', 'imagens/github-brands-solid.svg')
             } else if (btn[c] == btn[1]) {
                 icons[1].setAttribute('src', 'imagens/linkedin-brands-solid.svg')
+            } else if (btn[c] == btn[2]) {
+                icons[2].setAttribute('src','imagens/google-brands-solid.svg')
+            } else {
+                icons[3].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
             }
         })
     }
