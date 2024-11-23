@@ -9,48 +9,46 @@
 				
     <script src="script/script.js" defer></script>
     <link rel="stylesheet" href="styles/global.css">
-				
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
 
     <header>
-        <a href="index" rel="noopener noreferrer">
+        <a href="index">
             <span class="logo">
                 Meu Portfólio
             </span>
         </a>
         
-        <span 
-          class="fas fa-bars icon-menu" 
+        <img 
+          src="imagens/bars-solid.svg" 
+          class="icon-menu" 
           onclick="abrirMenu()"
-        >
-        </span>
+        />
         
-        <span 
-          class="fas fa-times close-menu"
+        <img 
+          src="imagens/close.svg" 
+          class="close-menu"
           onclick="fecharMenu()"
-        >
-        </span>
+        />
         
         <nav class="menu">
                         
             <a href="#" onclick="abrirContatos()">
-                <i class="far fa-address-book"></i>
-                    Contatos
-            </a>
+              <img src="imagens/address-book-regular.svg" class="icon" />
+                Contatos
+	    </a>
             
             <a href="projetos" onclick="fecharMenu()" target="_blank" rel="noopener noreferrer">
 
-                <i class="fas fa-chart-line"></i>
-                    Projetos
-            </a>
+              <img src="imagens/chart-line-solid.svg" class="icon" />
+                Projetos
+	    </a>
                        
             <a href="recomendacoes" onclick="fecharMenu()" target="_blank" rel="noopener noreferrer">
 
-                <i class="far fa-check-circle"></i>
-                    Recomendações
-            </a>
+              <img src="imagens/circle-check-regular.svg" class="icon" />
+                Recomendações
+	    </a>
                         
         </nav>
     </header>
