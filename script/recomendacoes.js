@@ -71,3 +71,38 @@ function buttonTop() {
         topo.style.display = 'flex'
     }
 }
+
+
+
+// Função criada para substituir o ícone, quando o cursor do mouse, está dentro do botão.
+
+function hoverOn() {
+    for (let c = 0; c < btn.length; c++) {
+        btn[c].addEventListener('mouseenter', () => {
+            if (btn[c] == btn[0]) {
+                icons[0].setAttribute('src', 'imagens/google-brands-solid2.svg')
+            } else if (btn[c] == btn[1]) {
+                icons[1].setAttribute('src', 'imagens/whatsapp-brands-solid2.svg')
+            }
+        })
+    }
+}
+
+hoverOn()
+
+
+// Função para desfazer a substituição dos ícones, quando o cursor do mouse estiver fora do botão.
+
+function hoverOff() {
+    for (let c = 0; c < btn.length; c++) {
+        btn[c].addEventListener('mouseleave', () => {
+            if (btn[c] == btn[0]) {
+                icons[0].setAttribute('src', 'imagens/google-brands-solid.svg')
+            } else if (btn[c] == btn[1]) {
+                icons[1].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
+            }
+        })
+    }
+}
+
+hoverOff()
