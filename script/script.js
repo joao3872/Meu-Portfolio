@@ -103,9 +103,11 @@ function hoverOff() {
             } else if (btn[c] == btn[2]) {
                 icons[2].setAttribute('src','imagens/google-brands-solid.svg')
                 btn[2].classList.remove('hoverGmail')
+                btn[2].style.color = 'var(--red)'
             } else {
                 icons[3].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
                 btn[3].classList.remove('hoverWhatsapp')
+                btn[3].style.color = 'var(--green-whatsapp)'
             }
         })
     }
@@ -206,8 +208,6 @@ function changeTheme(event) {
         btnLinkedin.addEventListener('mouseleave', () => {
             iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
             iconLinkedin.classList.remove('hoverLinkedinLight')
-            gmail.style.color = 'var(--red)'
-            whatsapp.style.color = 'var(--green-whatsapp)'
         })
 
         btnLinkedin.addEventListener('touchstart', () => {
@@ -216,7 +216,6 @@ function changeTheme(event) {
 
             iconLinkedin.style.color = 'var(--white)'
             iconLinkedin.style.borderColor = 'var(--white)'
-            iconLinkedin.style.background = 'var(--blue-claro)'
         })
 
         btnLinkedin.addEventListener('touchend', () => {
@@ -226,7 +225,6 @@ function changeTheme(event) {
 
                 iconLinkedin.style.color = 'var(--blue-claro)'
                 iconLinkedin.style.borderColor = 'var(--blue-claro)'
-                iconLinkedin.style.background = 'none'
             }, 3000)
         })
     } else {
