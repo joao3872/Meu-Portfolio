@@ -231,7 +231,7 @@ function changeTheme(event) {
         btnLinkedin.addEventListener('touchend', () => {
             setTimeout(() => {
                 iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
-                iconLinkedin.classList.add('hoverLinkedinLight')
+                iconLinkedin.classList.remove('hoverLinkedinLight')
 
                 iconLinkedin.style.color = 'var(--blue-claro)'
                 iconLinkedin.style.borderColor = 'var(--blue-claro)'
