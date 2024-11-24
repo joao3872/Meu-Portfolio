@@ -67,12 +67,16 @@ function hoverOn() {
         btn[c].addEventListener('mouseenter', () => {
             if (btn[c] == btn[0]) {
                 icons[0].setAttribute('src', 'imagens/github-brands-solid2.svg')
+                btn[0].classList.add('hoverGithub')
             } else if (btn[c] == btn[1]) {
                 icons[1].setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
+                btn[1].classList.add('hoverLinkedin')
             } else if (btn[c] == btn[2]) {
                 icons[2].setAttribute('src', 'imagens/google-brands-solid2.svg')
+                btn[2].classList.add('hoverGmail')
             } else {
                 icons[3].setAttribute('src', 'imagens/whatsapp-brands-solid2.svg')
+                btn[3].classList.add('hoverWhatsapp')
             }
         })
     }
@@ -88,12 +92,16 @@ function hoverOff() {
         btn[c].addEventListener('mouseleave', () => {
             if (btn[c] == btn[0]) {
                 icons[0].setAttribute('src', 'imagens/github-brands-solid.svg')
+                btn[0].classList.remove('hoverGithub')
             } else if (btn[c] == btn[1]) {
                 icons[1].setAttribute('src', 'imagens/linkedin-brands-solid.svg')
+                btn[1].classList.remove('hoverLinkedin')
             } else if (btn[c] == btn[2]) {
                 icons[2].setAttribute('src','imagens/google-brands-solid.svg')
+                btn[2].classList.remove('hoverGmail')
             } else {
                 icons[3].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
+                btn[3].classList.remove('hoverWhatsapp')
             }
         })
     }
