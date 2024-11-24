@@ -112,6 +112,56 @@ hoverOff()
 
 
 
+// Função para substituir os ícones e desfazer a substituição, por uma tela touch. Só que com a interação do evento touchstart para aplicar a mudança.
+// E com a interação do evento touchend, para desfazer a substituição, com o auxílio da função de controle de tempo setTimeout.
+
+const screenTouch = window.matchMedia("(max-width: 1007px)")
+
+function touchHover(event) {
+    if (event.matches) {
+        for (let c = 0; c < btn.length; c++) {
+            btn[c].addEventListener('touchstart', () => {
+                if (btn[c] == btn[0]) {
+                    icons[0].setAttribute('src', 'imagens/github-brands-solid2.svg')
+                    btn[0].classList.add('hoverGithub')
+                } else if (btn[c] == btn[1]) {
+                    icons[1].setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
+                    btn[1].classList.add('hoverLinkedin')
+                } else if (btn[c] == btn[2]) {
+                    icons[2].setAttribute('src', 'imagens/google-brands-solid2.svg')
+                    btn[2].classList.add('hoverGmail')
+                } else {
+                    icons[3].setAttribute('src', 'imagens/whatsapp-brands-solid2.svg')
+                    btn[3].classList.add('hoverWhatsapp')
+                }
+            })
+
+            btn[c].addEventListener('touchend', () => {
+                setTimeout(() => {
+                    if (btn[c] == btn[0]) {
+                        icons[0].setAttribute('src', 'imagens/github-brands-solid.svg')
+                        btn[0].classList.remove('hoverGithub')
+                    } else if (btn[c] == btn[1]) {
+                        icons[1].setAttribute('src', 'imagens/linkedin-brands-solid.svg')
+                        btn[1].classList.remove('hoverLinkedin')
+                    } else if (btn[c] == btn[2]) {
+                        icons[2].setAttribute('src','imagens/google-brands-solid.svg')
+                        btn[2].classList.remove('hoverGmail')
+                    } else {
+                        icons[3].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
+                        btn[3].classList.remove('hoverWhatsapp')
+                    }
+                }, 3000)
+            })
+        }
+    }
+}
+
+touchHover(screenTouch)
+
+
+
+
 const prefersColorScheme = window.matchMedia('(prefers-color-scheme: dark)')
 
 function changeTheme(event) {
