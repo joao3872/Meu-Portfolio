@@ -99,6 +99,7 @@ function hoverOff() {
             if (btn[c] == btn[0]) {
                 icons[0].setAttribute('src', 'imagens/google-brands-solid.svg')
                 btn[0].style.color = 'var(--red)'
+                btn[0].style.borderColor = 'var(--red)'
                 btn[0].style.background = 'none'
             } else {
                 icons[1].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
