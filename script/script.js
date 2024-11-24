@@ -21,6 +21,10 @@ let iconDownload = document.querySelector('.iconDownload')
 
 let btnLinkedin = document.querySelector('.btn_linkedin')
 
+let gmail = document.querySelector('.gmail')
+
+let whatsapp = document.querySelector('.whatsapp')
+
 
 function abrirMenu() {
     menu.style.display = 'block'
@@ -202,11 +206,13 @@ function changeTheme(event) {
         btnLinkedin.addEventListener('mouseleave', () => {
             iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
             iconLinkedin.classList.remove('hoverLinkedinLight')
+            gmail.style.color = 'var(--red)'
+            whatsapp.style.color = 'var(--green-whatsapp)'
         })
 
         btnLinkedin.addEventListener('touchstart', () => {
             iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
-            iconLinkedin.classList.add('hoverLinkedin')
+            iconLinkedin.classList.add('hoverLinkedinLight')
 
             iconLinkedin.style.color = 'var(--white)'
             iconLinkedin.style.borderColor = 'var(--white)'
@@ -216,7 +222,7 @@ function changeTheme(event) {
         btnLinkedin.addEventListener('touchend', () => {
             setTimeout(() => {
                 iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
-                iconLinkedin.classList.add('hoverLinkedin')
+                iconLinkedin.classList.add('hoverLinkedinLight')
 
                 iconLinkedin.style.color = 'var(--blue-claro)'
                 iconLinkedin.style.borderColor = 'var(--blue-claro)'
