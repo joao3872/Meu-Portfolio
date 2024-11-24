@@ -179,12 +179,12 @@ header .menu a .icon, .buttons_contatos .gmail {
     margin-right: 10px;
 }
 
-.fundo-modal .modal-contatos .buttons_contatos .gmail:hover {
+.fundo-modal .modal-contatos .buttons_contatos .gmail:hover, .hoverGmail {
     color: var(--white);
     background: var(--red);
 }
 
-.fundo-modal .modal-contatos .buttons_contatos .whatsapp:hover {
+.fundo-modal .modal-contatos .buttons_contatos .whatsapp:hover, .hoverWhatsapp {
     background: var(--green-whatsapp);
     color: var(--white);
 }
