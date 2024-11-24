@@ -81,7 +81,7 @@ function hoverOn() {
         btn[c].addEventListener('mouseenter', () => {
             if (btn[c] == btn[0]) {
                 icons[0].setAttribute('src', 'imagens/google-brands-solid2.svg')
-            } else if (btn[c] == btn[1]) {
+            } else {
                 icons[1].setAttribute('src', 'imagens/whatsapp-brands-solid2.svg')
             }
         })
@@ -99,9 +99,12 @@ function hoverOff() {
             if (btn[c] == btn[0]) {
                 icons[0].setAttribute('src', 'imagens/google-brands-solid.svg')
                 btn[0].style.color = 'var(--red)'
-            } else if (btn[c] == btn[1]) {
+                btn[0].style.background = 'none'
+            } else {
                 icons[1].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
                 btn[1].style.color = 'var(--green-whatsapp)'
+                btn[1].style.borderColor = 'var(--green-whatsapp)'
+                btn[1].style.background = 'none'
             }
         })
     }
