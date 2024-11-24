@@ -124,17 +124,27 @@ function touchHover(event) {
                 if (btn[c] == btn[0]) {
                     icons[0].setAttribute('src', 'imagens/github-brands-solid2.svg')
                     btn[0].classList.add('hoverGithub')
+                    
                     btn[0].style.color = 'var(--white)'
                     btn[0].style.borderColor = 'var(--white)'
                 } else if (btn[c] == btn[1]) {
                     icons[1].setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
                     btn[1].classList.add('hoverLinkedin')
+
+                    btn[1].style.color = 'var(--white)'
+                    btn[1].style.borderColor = 'var(--white)'
                 } else if (btn[c] == btn[2]) {
                     icons[2].setAttribute('src', 'imagens/google-brands-solid2.svg')
                     btn[2].classList.add('hoverGmail')
+
+                    btn[2].style.color = 'var(--white)'
+                    btn[2].style.borderColor = 'none'
                 } else {
                     icons[3].setAttribute('src', 'imagens/whatsapp-brands-solid2.svg')
                     btn[3].classList.add('hoverWhatsapp')
+
+                    btn[3].style.color = 'var(--white)'
+                    btn[3].style.borderColor = 'none'
                 }
             })
 
@@ -143,15 +153,27 @@ function touchHover(event) {
                     if (btn[c] == btn[0]) {
                         icons[0].setAttribute('src', 'imagens/github-brands-solid.svg')
                         btn[0].classList.remove('hoverGithub')
+
+                        btn[0].style.color = 'var(--black)'
+                        btn[0].style.borderColor = 'var(--black)'
                     } else if (btn[c] == btn[1]) {
                         icons[1].setAttribute('src', 'imagens/linkedin-brands-solid.svg')
                         btn[1].classList.remove('hoverLinkedin')
+
+                        btn[1].style.color = 'var(--blue-linkedin)'
+                        btn[1].style.borderColor = 'var(--blue-linkedin)'
                     } else if (btn[c] == btn[2]) {
                         icons[2].setAttribute('src','imagens/google-brands-solid.svg')
                         btn[2].classList.remove('hoverGmail')
+
+                        btn[2].style.color = 'var(--red)'
+                        btn[2].style.borderColor = 'var(--red)'
                     } else {
                         icons[3].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
                         btn[3].classList.remove('hoverWhatsapp')
+
+                        btn[3].style.color = 'var(--green-whatsapp)'
+                        btn[3].style.borderColor = 'var(--green-whatsapp)'
                     }
                 }, 3000)
             })
