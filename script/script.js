@@ -196,10 +196,32 @@ function changeTheme(event) {
 
         btnLinkedin.addEventListener('mouseenter', () => {
             iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
+            iconLinkedin.classList.add('hoverLinkedinLight')
         })
 
         btnLinkedin.addEventListener('mouseleave', () => {
             iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
+            iconLinkedin.classList.remove('hoverLinkedinLight')
+        })
+
+        btnLinkedin.addEventListener('touchstart', () => {
+            iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
+            iconLinkedin.classList.add('hoverLinkedin')
+
+            iconLinkedin.style.color = 'var(--white)'
+            iconLinkedin.style.borderColor = 'var(--white)'
+            iconLinkedin.style.background = 'var(--blue-claro)'
+        })
+
+        btnLinkedin.addEventListener('touchend', () => {
+            setTimeout(() => {
+                iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
+                iconLinkedin.classList.add('hoverLinkedin')
+
+                iconLinkedin.style.color = 'var(--blue-claro)'
+                iconLinkedin.style.borderColor = 'var(--blue-claro)'
+                iconLinkedin.style.background = 'none'
+            }, 3000)
         })
     } else {
         iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid.svg')
