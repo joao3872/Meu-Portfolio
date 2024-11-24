@@ -124,6 +124,8 @@ function touchHover(event) {
                 if (btn[c] == btn[0]) {
                     icons[0].setAttribute('src', 'imagens/github-brands-solid2.svg')
                     btn[0].classList.add('hoverGithub')
+                    btn[0].style.color = 'var(--white)'
+                    btn[0].style.borderColor = 'var(--white)'
                 } else if (btn[c] == btn[1]) {
                     icons[1].setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
                     btn[1].classList.add('hoverLinkedin')
