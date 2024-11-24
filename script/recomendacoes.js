@@ -98,11 +98,57 @@ function hoverOff() {
         btn[c].addEventListener('mouseleave', () => {
             if (btn[c] == btn[0]) {
                 icons[0].setAttribute('src', 'imagens/google-brands-solid.svg')
+                btn[0].style.color = 'var(--red)'
             } else if (btn[c] == btn[1]) {
                 icons[1].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
+                btn[1].style.color = 'var(--green-whatsapp)'
             }
         })
     }
 }
 
 hoverOff()
+
+
+
+const screenTouchTwo = window.matchMedia("(max-width: 1007px)")
+
+function touchHoverTwo(event) {
+    if (event.matches) {
+        for (let c = 0; c < btn.length; c++) {
+            btn[c].addEventListener('touchstart', () => {
+                if (btn[c] == btn[0]) {
+                    icons[0].setAttribute('src', 'imagens/google-brands-solid2.svg')
+                    btn[0].classList.add('hoverGmail')
+                    
+                    btn[0].style.color = 'var(--white)'
+                } else {
+                    icons[1].setAttribute('src', 'imagens/whatsapp-brands-solid2.svg')
+                    btn[1].classList.add('hoverWhatsapp')
+
+                    btn[1].style.color = 'var(--white)'
+                }
+            })
+
+            btn[c].addEventListener('touchend', () => {
+                setTimeout(() => {
+                    if (btn[c] == btn[0]) {
+                        icons[0].setAttribute('src', 'imagens/google-brands-solid.svg')
+                        btn[0].classList.remove('hoverGmail')
+
+                        btn[0].style.color = 'var(--red)'
+                        btn[0].style.borderColor = 'var(--red)'
+                    } else {
+                        icons[1].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
+                        btn[1].classList.remove('hoverWhatsapp')
+
+                        btn[1].style.color = 'var(--green-whatsapp)'
+                        btn[1].style.borderColor = 'var(--green-whatsapp)'
+                    }
+                }, 3000)
+            })
+        }
+    }
+}
+
+touchHoverTwo(screenTouchTwo)
