@@ -206,35 +206,35 @@ function changeTheme(event) {
 
         btnLinkedin.addEventListener('mouseenter', () => {
             iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
-            iconLinkedin.classList.add('hoverLinkedinLight')
+            btnLinkedin.classList.add('hoverLinkedinLight')
 
-            iconLinkedin.style.color = 'var(--white)'
-            iconLinkedin.style.borderColor = 'var(--white)'
+            btnLinkedin.style.color = 'var(--white)'
+            btnLinkedin.style.borderColor = 'var(--white)'
         })
 
         btnLinkedin.addEventListener('mouseleave', () => {
             iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
-            iconLinkedin.classList.remove('hoverLinkedinLight')
+            btnLinkedin.classList.remove('hoverLinkedinLight')
 
-            iconLinkedin.style.color = 'var(--blue-claro)'
-            iconLinkedin.style.borderColor = 'var(--blue-claro)'
+            btnLinkedin.style.color = 'var(--blue-claro)'
+            btnLinkedin.style.borderColor = 'var(--blue-claro)'
         })
 
         btnLinkedin.addEventListener('touchstart', () => {
             iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
-            iconLinkedin.classList.add('hoverLinkedinLight')
+            btnLinkedin.classList.add('hoverLinkedinLight')
 
-            iconLinkedin.style.color = 'var(--white)'
-            iconLinkedin.style.borderColor = 'var(--white)'
+            btnLinkedin.style.color = 'var(--white)'
+            btnLinkedin.style.borderColor = 'var(--white)'
         })
 
         btnLinkedin.addEventListener('touchend', () => {
             setTimeout(() => {
                 iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
-                iconLinkedin.classList.remove('hoverLinkedinLight')
+                btnLinkedin.classList.remove('hoverLinkedinLight')
 
-                iconLinkedin.style.color = 'var(--blue-claro)'
-                iconLinkedin.style.borderColor = 'var(--blue-claro)'
+                btnLinkedin.style.color = 'var(--blue-claro)'
+                btnLinkedin.style.borderColor = 'var(--blue-claro)'
             }, 3000)
         })
     } else {
