@@ -78,13 +78,13 @@ main .redes .buttons .btn_linkedin {
     margin-left: 1.5625rem;
 }
 
-main .redes .buttons .btn_github:hover, .btn_linkedin:hover {
+main .redes .buttons .btn_github:hover, .hoverGithub {
     background: var(--black);
     color: var(--white);
     border: .09375rem solid var(--white);
 }
 
-main .redes .buttons .btn_linkedin:hover {
+main .redes .buttons .btn_linkedin:hover, .hoverLinkedin {
     background: var(--blue-linkedin);
     color: var(--white);
     border: .09375rem solid var(--white);
