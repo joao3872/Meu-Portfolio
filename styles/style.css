@@ -299,7 +299,7 @@ main .curriculo .buttons-cv .cv:hover {
         border-color: var(--blue-claro);
     }
 
-    main .redes .buttons .btn_linkedin:hover {
+    main .redes .buttons .btn_linkedin:hover, .hoverLinkedinLight {
         background: var(--blue-claro);
         color: var(--white);
     }
