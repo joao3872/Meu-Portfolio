@@ -97,9 +97,13 @@ function hoverOff() {
             if (btn[c] == btn[0]) {
                 icons[0].setAttribute('src', 'imagens/github-brands-solid.svg')
                 btn[0].classList.remove('hoverGithub')
+                btn[0].style.color = 'var(--black)'
+                btn[0].style.borderColor = 'var(--black)'
             } else if (btn[c] == btn[1]) {
                 icons[1].setAttribute('src', 'imagens/linkedin-brands-solid.svg')
                 btn[1].classList.remove('hoverLinkedin')
+                btn[1].style.color = 'var(--blue-linkedin)
+                btn[1].style.borderColor = 'var(--blue-linkedin)'
             } else if (btn[c] == btn[2]) {
                 icons[2].setAttribute('src','imagens/google-brands-solid.svg')
                 btn[2].classList.remove('hoverGmail')
@@ -203,11 +207,17 @@ function changeTheme(event) {
         btnLinkedin.addEventListener('mouseenter', () => {
             iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid2.svg')
             iconLinkedin.classList.add('hoverLinkedinLight')
+
+            iconLinkedin.style.color = 'var(--white)'
+            iconLinkedin.style.borderColor = 'var(--white)'
         })
 
         btnLinkedin.addEventListener('mouseleave', () => {
             iconLinkedin.setAttribute('src', 'imagens/linkedin-brands-solid3.svg')
             iconLinkedin.classList.remove('hoverLinkedinLight')
+
+            iconLinkedin.style.color = 'var(--blue-claro)'
+            iconLinkedin.style.borderColor = 'var(--blue-claro)'
         })
 
         btnLinkedin.addEventListener('touchstart', () => {
