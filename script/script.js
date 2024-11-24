@@ -102,7 +102,7 @@ function hoverOff() {
             } else if (btn[c] == btn[1]) {
                 icons[1].setAttribute('src', 'imagens/linkedin-brands-solid.svg')
                 btn[1].classList.remove('hoverLinkedin')
-                btn[1].style.color = 'var(--blue-linkedin)
+                btn[1].style.color = 'var(--blue-linkedin)'
                 btn[1].style.borderColor = 'var(--blue-linkedin)'
             } else if (btn[c] == btn[2]) {
                 icons[2].setAttribute('src','imagens/google-brands-solid.svg')
