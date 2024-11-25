@@ -92,10 +92,6 @@ function hoverOnTwo() {
 
 hoverOnTwo()
 
-if(hoverOn()) {
-    !hoverOn()
-}
-
 
 // Função para desfazer a substituição dos ícones, quando o cursor do mouse estiver fora do botão.
 
@@ -122,10 +118,6 @@ function hoverOffTwo() {
 }
 
 hoverOffTwo()
-
-if(hoverOff()) {
-    !hoverOff()
-}
 
 
 
@@ -170,7 +162,3 @@ function touchHoverTwo(event) {
 }
 
 touchHoverTwo(screenTouchTwo)
-
-if(touchHover(screenTouch)) {
-    !touchHover(screenTouch)
-}
