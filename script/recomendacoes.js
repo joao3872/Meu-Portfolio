@@ -81,8 +81,10 @@ function hoverOn() {
         btn[c].addEventListener('mouseenter', () => {
             if (btn[c] == btn[0]) {
                 icons[0].setAttribute('src', 'imagens/google-brands-solid2.svg')
+                btn[0].classList.add('hoverGmail')
             } else {
                 icons[1].setAttribute('src', 'imagens/whatsapp-brands-solid2.svg')
+                btn[1].classList.add('hoverWhatsapp')
             }
         })
     }
@@ -98,11 +100,15 @@ function hoverOff() {
         btn[c].addEventListener('mouseleave', () => {
             if (btn[c] == btn[0]) {
                 icons[0].setAttribute('src', 'imagens/google-brands-solid.svg')
+                btn[0].classList.remove('hoverGmail')
+                
                 btn[0].style.color = 'var(--red)'
                 btn[0].style.borderColor = 'var(--red)'
                 btn[0].style.background = 'none'
             } else {
                 icons[1].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
+                btn[1].classList.remove('hoverWhatsapp')
+                
                 btn[1].style.color = 'var(--green-whatsapp)'
                 btn[1].style.borderColor = 'var(--green-whatsapp)'
                 btn[1].style.background = 'none'
