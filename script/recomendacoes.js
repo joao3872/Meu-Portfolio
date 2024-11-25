@@ -82,9 +82,15 @@ function hoverOnTwo() {
             if (btn[c] == btn[0]) {
                 icons[0].setAttribute('src', 'imagens/google-brands-solid2.svg')
                 btn[0].classList.add('hoverGmail')
+
+                btn[0].style.color = 'var(--white)'
+                btn[0].style.background = 'var(--red)'
             } else {
                 icons[1].setAttribute('src', 'imagens/whatsapp-brands-solid2.svg')
                 btn[1].classList.add('hoverWhatsapp')
+
+                btn[1].style.color = 'var(--white)'
+                btn[1].style.background = 'var(--green-whatsapp)'
             }
         })
     }
