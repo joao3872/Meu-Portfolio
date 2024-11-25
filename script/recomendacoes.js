@@ -117,7 +117,7 @@ function hoverOffTwo() {
     }
 }
 
-hovstyleTwo()
+hoverOffTwo()
 
 
 
