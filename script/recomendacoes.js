@@ -76,7 +76,7 @@ function buttonTop() {
 
 // Função criada para substituir o ícone, quando o cursor do mouse, está dentro do botão.
 
-function hoverOn() {
+function hoverOnTwo() {
     for (let c = 0; c < btn.length; c++) {
         btn[c].addEventListener('mouseenter', () => {
             if (btn[c] == btn[0]) {
@@ -90,12 +90,12 @@ function hoverOn() {
     }
 }
 
-hoverOn()
+hoverOnTwo()
 
 
 // Função para desfazer a substituição dos ícones, quando o cursor do mouse estiver fora do botão.
 
-function hoverOff() {
+function hoverOffTwo() {
     for (let c = 0; c < btn.length; c++) {
         btn[c].addEventListener('mouseleave', () => {
             if (btn[c] == btn[0]) {
@@ -117,7 +117,7 @@ function hoverOff() {
     }
 }
 
-hoverOff()
+hovstyleTwo()
 
 
 
