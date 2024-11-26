@@ -111,19 +111,23 @@ function hoverOff() {
                 btn[0].classList.remove('hoverGithub')
                 btn[0].style.color = 'var(--black)'
                 btn[0].style.borderColor = 'var(--black)'
+                btn[0].style.background = 'none'
             } else if (btn[c] == btn[1]) {
                 icons[1].setAttribute('src', 'imagens/linkedin-brands-solid.svg')
                 btn[1].classList.remove('hoverLinkedin')
                 btn[1].style.color = 'var(--blue-linkedin)'
-                btn[1].style.borderColor = 'var(--blue-linkedin)'
+                btn[1].style.borderColor = 'var(--blue-linkedin)',
+                btn[1].style.background = 'none'
             } else if (btn[c] == btn[2]) {
                 icons[2].setAttribute('src','imagens/google-brands-solid.svg')
                 btn[2].classList.remove('hoverGmail')
                 btn[2].style.color = 'var(--red)'
+                btn[2].style.background = 'none'
             } else {
                 icons[3].setAttribute('src', 'imagens/whatsapp-brands-solid.svg')
                 btn[3].classList.remove('hoverWhatsapp')
                 btn[3].style.color = 'var(--green-whatsapp)'
+                btn[3].style.background = 'none'
             }
         })
     }
