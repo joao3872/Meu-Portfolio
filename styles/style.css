@@ -51,8 +51,9 @@ main .redes {
 }
 
 main .redes .buttons {
-    margin: auto;
     margin: 2.0625rem 0 1.5625rem 0;
+    display: flex;
+    justify-content: center;
 }
 
 main .redes .buttons .btn_github, .btn_linkedin, .cv {
@@ -61,6 +62,14 @@ main .redes .buttons .btn_github, .btn_linkedin, .cv {
     border: .0625rem solid var(--black);
     font: bold 12pt Arial;
     color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .redes .buttons .btn_github .iconGithub, .iconLinkedin, .iconEye, .iconDownload {
+    height: 18px;
+    margin-right: 7px;
 }
 
 main .redes .buttons .btn_linkedin {
@@ -69,13 +78,13 @@ main .redes .buttons .btn_linkedin {
     margin-left: 1.5625rem;
 }
 
-main .redes .buttons .btn_github:hover, .btn_linkedin:hover {
+main .redes .buttons .btn_github:hover, .hoverGithub {
     background: var(--black);
     color: var(--white);
     border: .09375rem solid var(--white);
 }
 
-main .redes .buttons .btn_linkedin:hover {
+main .redes .buttons .btn_linkedin:hover, .hoverLinkedin {
     background: var(--blue-linkedin);
     color: var(--white);
     border: .09375rem solid var(--white);
@@ -115,6 +124,8 @@ main .curriculo .buttons-cv .cv .link {
 
 main .curriculo .buttons-cv .cv, .link {
     color: var(--purple);
+    display: flex;
+    align-items: center;
 }
 
 main .curriculo .buttons-cv .cv:hover {
@@ -211,38 +222,14 @@ main .curriculo .buttons-cv .cv:hover {
     gap: 30px;
 }
 
-.modal_informacoes .scroll .linguagens .html5, .css3, .js, .python, .git {
-    font-size: 1.75rem;
-}
-
-.modal_informacoes .scroll .linguagens .html5 {
-    color: var(--orange-html);
-}
-
-.modal_informacoes .scroll .linguagens .css3 {
-    color: var(--blue-css);
-}
-
-.modal_informacoes .scroll .linguagens .js {
-    color: var(--yellow-js);
-}
-
-.modal_informacoes .scroll .linguagens .python {
-    color: var(--blue-python);
-}
-
-.modal_informacoes .scroll .ferramentas .vscode {
+.modal_informacoes .scroll .linguagens .html5, .css3, .js, .python, .git, .vscode {
     height: 1.75rem;
 }
-
-.modal_informacoes .scroll .ferramentas .git {
-    color: var(--orange-red);
-}
-
 
 .modal_informacoes .scroll .linguagens #icon:hover, .ferramentas #icon:hover {
     animation: efeito 3s ease-in infinite alternate;
 }
+
 
 @keyframes efeito {
     0% {
@@ -264,6 +251,7 @@ main .curriculo .buttons-cv .cv:hover {
 
     main .container .informacoes {
         width: 25rem;
+        background: rgba(51, 51, 51, .9);
     }
 
     main .curriculo .buttons-cv .cv {
@@ -289,8 +277,19 @@ main .curriculo .buttons-cv .cv:hover {
         background-image: url("../imagens/img-dark.png");
     }
 
+    main .container .informacoes {
+        background: rgba(42, 39, 39, .8);
+    }
+    
+    main .container .informacoes h3 {
+        background: linear-gradient(.2turn, var(--aqua-marine), var(--yellow));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: var(--transparent);
+    }
+
     main .redes {
-        color: var(--white);
+        color: var(--black);
         background: var(--grey);
         border-bottom: .0625rem dashed var(--orange-red);
     }
@@ -300,24 +299,31 @@ main .curriculo .buttons-cv .cv:hover {
         border-color: var(--blue-claro);
     }
 
-    main .redes .buttons .btn_linkedin:hover {
+    main .redes .buttons .btn_linkedin:hover, .hoverLinkedinLight {
         background: var(--blue-claro);
         color: var(--white);
     }
 
     main .curriculo {
         background: rgba(138, 138, 138, .8);
-        color: var(--white);
+        color: var(--black);
     }
 
     main .curriculo .buttons-cv .cv {
-        color: var(--purple-claro);
         border-color: var(--purple-claro);
     }
 
     main .curriculo .buttons-cv .cv:hover {
         color: var(--white);
         box-shadow: 0 .5em .5em -.4em var(--purple-claro);
+    }
+
+    main .curriculo .buttons-cv .cv .link {
+        color: var(--purple-claro);
+    }
+
+    main .curriculo .buttons-cv p {
+        color: var(--black);
     }
 
     .btn_informacoes {
@@ -344,5 +350,16 @@ main .curriculo .buttons-cv .cv:hover {
 @media (prefers-color-scheme: dark) and (min-width: 601px) {
     main .container {
         background-image: url("../imagens/fundo-dark.png");
+    }
+}
+
+
+@media screen and (orientation: landscape) and (max-width: 600px) {
+    .modal_informacoes {
+        width: 65%;
+    }
+
+    .modal_informacoes .scroll {
+        height: 9.625rem;
     }
 }
